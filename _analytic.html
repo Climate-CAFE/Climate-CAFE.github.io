@@ -1,0 +1,2716 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Catalog &#8212; Climate CAFE SOP</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_analytic';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/cafe_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/cafe_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to the Climate CAFE SOP Page
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">SOP</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="external.html">External SOP</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">GitHub</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="github.html">Getting Started with GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="template.html">Reproducible Data Creation Pipeline</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Dataverse</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Uploading Data to Dataverse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Example</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Climate-CAFE/SOP_documentation" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Climate-CAFE/SOP_documentation/issues/new?title=Issue%20on%20page%20%2F_analytic.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/_analytic.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Catalog</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medpar-admissions">MedPar (Admissions)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mbsf-denominator">MBSF (Denominator)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annual-exposure-per-medicare-beneficiary">Annual Exposure per Medicare Beneficiary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mbsf-enrollment-file-denominator">MBSF (Enrollment file, denominator)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ad-adrd-hospitalization">AD/ADRD Hospitalization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medicare-entry-age">Medicare Entry Age</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#years-in-medicare">Years in Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temperature-humidity-precipitation">Temperature Humidity Precipitation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pollution-census-temperature-covariates">Pollution-Census-Temperature covariates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#population-weighted-daily-county-level-heat-metrics">Population-Weighted Daily County-Level Heat Metrics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medicaid-respiratory-hospitalizations-in-children">Medicaid - Respiratory Hospitalizations in Children</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exposure-census-brffs-confounders">Exposure-census-BRFFS confounders</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adrd-hospitalization-records">ADRD Hospitalization Records</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medpar-file-2000-2016-clean">Medpar File 2000-2016 Clean</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denominator-file-2000-2016-clean">Denominator File 2000-2016 Clean</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denominator-clean-merged-with-exposure-and-covariate-data">Denominator Clean Merged with Exposure and Covariate Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hospital-admissions-merged-with-denominator-exposure-and-covariates">Hospital Admissions Merged with Denominator, Exposure, and Covariates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-2010-2016-medicare-mortality-data-with-pm2-5-exposure-and-zip-code-level-variables">Aggregated 2010-2016 Medicare Mortality Data with PM2.5 Exposure and ZIP code level variables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nationwide-medicare-strata">Nationwide Medicare Strata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cvd-medicaid">CVD Medicaid</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-cvd-cohort-medicare">Aggregated CVD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-chd-cohort-medicare">Aggregated CHD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-cbv-cohort-medicare">Aggregated CBV cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-adrd-cohort-medicare">Aggregated ADRD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-pd-cohort-medicare">Aggregated PD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daily-county-level-heatwave-associated-hospitalizations">Daily County Level Heatwave Associated Hospitalizations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hospitalizations-for-kidney-disease-and-comorbidities">Hospitalizations for kidney disease and comorbidities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ihd-medicare-hospitalizations-2005">IHD medicare hospitalizations (2005)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daily-florida-hospitalization-counts-by-zip">Daily Florida Hospitalization Counts by Zip</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coal-pm2-5-source-impacts">Coal PM2.5 Source Impacts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-2000-2016-medicare-mortality-data-with-pm2-5-exposure-by-zip-code">Aggregated 2000-2016 Medicare Mortality Data with PM2.5 Exposure by ZIP code</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="catalog">
+<h1>Catalog<a class="headerlink" href="#catalog" title="Permalink to this heading">#</a></h1>
+<p>The following data is available at: <strong><code class="docutils literal notranslate"><span class="pre">/n/dominici_nsaph_l3/Lab/projects/analytic/</span></code></strong></p>
+<section id="medpar-admissions">
+<h2>MedPar (Admissions)<a class="headerlink" href="#medpar-admissions" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>admissions_by_year</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">admissions_by_year</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/gen_admission/</span> <span class="pre">1999_2016/targeted_conditions/cache_data/admissions_by_year/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Feb 20 2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">22 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── admissions_1999.fst
+   ├── admissions_2000.fst
+   ├── ...
+   └── admissions_2016.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">QID</span>                      <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">AGE</span>                      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">SEX</span>                      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">RACE</span>                     <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">SSA_STATE_CD</span>             <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">SSA_CNTY_CD</span>              <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">PROV_NUM</span>                 <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">ADM_SOURCE</span>               <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">ADM_TYPE</span>                 <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">ADATE</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DDATE</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">BENE_DOD</span>                 <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DODFLAG</span>                  <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">ICU_DAY</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CCI_DAY</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">ICU</span>                      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CCI</span>                      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">DIAG1</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG2</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG3</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG4</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG5</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG6</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG7</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG8</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG9</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">DIAG10</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag11</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag12</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag13</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag14</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag15</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag16</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag17</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag18</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag19</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag20</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag21</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag22</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag23</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag24</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">diag25</span>                   <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">YEAR</span>                     <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">LOS</span>                      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Parkinson_pdx</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Parkinson_pdx2dx_10</span>      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Parkinson_pdx2dx_25</span>      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Alzheimer_pdx</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Alzheimer_pdx2dx_10</span>      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Alzheimer_pdx2dx_25</span>      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Dementia_pdx</span>             <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Dementia_pdx2dx_10</span>       <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Dementia_pdx2dx_25</span>       <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CHF_pdx</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CHF_pdx2dx_10</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CHF_pdx2dx_25</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">AMI_pdx</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">AMI_pdx2dx_10</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">AMI_pdx2dx_25</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">COPD_pdx</span>                 <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">COPD_pdx2dx_10</span>           <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">COPD_pdx2dx_25</span>           <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">DM_pdx</span>                   <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">DM_pdx2dx_10</span>             <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">DM_pdx2dx_25</span>             <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Stroke_pdx</span>               <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Stroke_pdx2dx_10</span>         <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Stroke_pdx2dx_25</span>         <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CVD_pdx</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CVD_pdx2dx_10</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CVD_pdx2dx_25</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CSD_pdx</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CSD_pdx2dx_10</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">CSD_pdx2dx_25</span>            <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Ischemic_stroke_pdx</span>      <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Ischemic_stroke_pdx2dx_10</span><span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Ischemic_stroke_pdx2dx_25</span><span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Hemo_Stroke_pdx</span>          <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Hemo_Stroke_pdx2dx_10</span>    <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Hemo_Stroke_pdx2dx_25</span>    <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">zipcode_R</span>                <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">Race_gp</span>                  <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">Sex_gp</span>                   <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">age_gp</span>                   <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">Dual</span>                     <span class="p">:</span> <span class="nb">int</span>  
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="mbsf-denominator">
+<h2>MBSF (Denominator)<a class="headerlink" href="#mbsf-denominator" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>denom</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MBSF</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">denom</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">7.4 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── qid_data_2009.fst
+   ├── qid_data_2010.fst
+   ├── ...
+   ├── qid_data_2016.fst
+   ├── qid_entry_exit.fst
+   └── year_zip_confounders.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header (qid_data_yyyy)<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">qid</span>   <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">year</span>  <span class="p">:</span> <span class="nb">int</span>  
+<span class="nb">zip</span>   <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">sex</span>   <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">age</span>   <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">dual</span>  <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">dead</span>  <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">hmo_mo</span><span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">fips</span>  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">race</span>  <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">sexM</span>  <span class="p">:</span> <span class="n">num</span>  
+</pre></div>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header (year_zip_confounders)<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">zip</span>               <span class="p">:</span> <span class="n">num</span>  
+<span class="n">year</span>              <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">mean_bmi</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">smoke_rate</span>        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">hispanic</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_blk</span>           <span class="p">:</span> <span class="n">num</span>  
+<span class="n">medhouseholdincome</span><span class="p">:</span> <span class="n">num</span>  
+<span class="n">medianhousevalue</span>  <span class="p">:</span> <span class="n">num</span>  
+<span class="n">poverty</span>           <span class="p">:</span> <span class="n">num</span>  
+<span class="n">education</span>         <span class="p">:</span> <span class="n">num</span>  
+<span class="n">popdensity</span>        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_owner_occ</span>     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">summer_tmmx</span>       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">winter_tmmx</span>       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">summer_rmax</span>       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">winter_rmax</span>       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">city</span>              <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">statecode</span>         <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">latitude</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">longitude</span>         <span class="p">:</span> <span class="n">num</span>  
+
+<span class="n">min_year</span><span class="p">:</span> <span class="mi">2000</span>
+<span class="n">max_year</span><span class="p">:</span> <span class="mi">2016</span>
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="annual-exposure-per-medicare-beneficiary">
+<h2>Annual Exposure per Medicare Beneficiary<a class="headerlink" href="#annual-exposure-per-medicare-beneficiary" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>qid_yr_exposures</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/dmork/Data/DLM_ADRD</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">qid_yr_exposures</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Daniel Mork</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">April 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">139 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Annual exposure measurements (columns, 2000-2016) for each Medicare benficiary (rows) tied to their zip code of residence in a given year. Exposures (xxx in file name) include: no2, ozone, pm2.5, pm2.5components, pr (precipitation), rmax (max humidity), tmmx (max temperature), zip (zip code of residence).</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    ├── qid_yr_no2.fst
+    ├── qid_yr_ozone.fst
+    ├── qid_yr_pm25comp_br.fst
+    ├── qid_yr_pm25comp_ca.fst
+    ├── qid_yr_pm25comp_cu.fst
+    ├── qid_yr_pm25comp_ec.fst
+    ├── qid_yr_pm25comp_fe.fst
+    ├── qid_yr_pm25comp_k.fst
+    ├── qid_yr_pm25comp_nh4.fst
+    ├── qid_yr_pm25comp_ni.fst
+    ├── qid_yr_pm25comp_no3.fst
+    ├── qid_yr_pm25comp_oc.fst
+    ├── qid_yr_pm25comp_pb.fst
+    ├── qid_yr_pm25comp_si.fst
+    ├── qid_yr_pm25comp_so4.fst
+    ├── qid_yr_pm25comp_v.fst
+    ├── qid_yr_pm25comp_z.fst
+    ├── qid_yr_pm25.fst
+    ├── qid_yr_pr.fst
+    ├── qid_yr_rmax.fst
+    ├── qid_yr_tmmx.fst
+    └── qid_yr_zip.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header (qid_yr_xxx.fst):<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">qid</span> <span class="p">:</span> <span class="nb">chr</span>  
+<span class="mi">2000</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2001</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2002</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2003</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2004</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2005</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2006</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2007</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2008</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2009</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2010</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2011</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2012</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2013</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2014</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2015</span><span class="p">:</span> <span class="n">num</span>  
+<span class="mi">2016</span><span class="p">:</span> <span class="n">num</span>
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="mbsf-enrollment-file-denominator">
+<h2>MBSF (Enrollment file, denominator)<a class="headerlink" href="#mbsf-enrollment-file-denominator" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>denom_by_year</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MBSF, census (interpolated), BRFSS (interpolated), PM2.5 exposure, seasonal temperature</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/mortality/</span> <span class="pre">1999_2016/wu/cache_data/merged_by_year_v2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">denom_by_year</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/National-Causal-Analysis/tree/master/MergedData">github.com/NSAPH/National-Causal-Analysis</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath, Xiao Wu</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">processing_description</p></td>
+<td><p class="sd-card-text">Recommended for use. Available in both <code class="docutils literal notranslate"><span class="pre">.fst</span></code> and <code class="docutils literal notranslate"><span class="pre">.csv</span></code> formats on FASSE.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Apr 2021</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">7.4 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── confounder_exposure_merged_nodups_health_1999.fst
+   ├── ...
+   └── confounder_exposure_merged_nodups_health_2016.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">zip</span>                         <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">year</span>                        <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">qid</span>                         <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">dodflag</span>                     <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">bene_dod</span>                    <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">sex</span>                         <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">race</span>                        <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">age</span>                         <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">hmo_mo</span>                      <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">hmoind</span>                      <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">statecode</span>                   <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">latitude</span>                    <span class="p">:</span> <span class="n">num</span>  
+<span class="n">longitude</span>                   <span class="p">:</span> <span class="n">num</span>  
+<span class="n">dual</span>                        <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">death</span>                       <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">dead</span>                        <span class="p">:</span> <span class="n">logi</span> 
+<span class="n">entry_age</span>                   <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">entry_year</span>                  <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">entry_age_break</span>             <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">followup_year</span>               <span class="p">:</span> <span class="n">num</span>  
+<span class="n">followup_year_plus_one</span>      <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pm25_ensemble</span>               <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pm25_no_interp</span>              <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pm25_nn</span>                     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">ozone</span>                       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">ozone_no_interp</span>             <span class="p">:</span> <span class="n">num</span>  
+<span class="n">zcta</span>                        <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">poverty</span>                     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">popdensity</span>                  <span class="p">:</span> <span class="n">num</span>  
+<span class="n">medianhousevalue</span>            <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_blk</span>                     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">medhouseholdincome</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_owner_occ</span>               <span class="p">:</span> <span class="n">num</span>  
+<span class="n">hispanic</span>                    <span class="p">:</span> <span class="n">num</span>  
+<span class="n">education</span>                   <span class="p">:</span> <span class="n">num</span>  
+<span class="n">population</span>                  <span class="p">:</span> <span class="n">num</span>  
+<span class="n">zcta_no_interp</span>              <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">poverty_no_interp</span>           <span class="p">:</span> <span class="n">num</span>  
+<span class="n">popdensity_no_interp</span>        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">medianhousevalue_no_interp</span>  <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_blk_no_interp</span>           <span class="p">:</span> <span class="n">num</span>  
+<span class="n">medhouseholdincome_no_interp</span><span class="p">:</span> <span class="n">num</span>  
+<span class="n">pct_owner_occ_no_interp</span>     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">hispanic_no_interp</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">education_no_interp</span>         <span class="p">:</span> <span class="n">num</span>  
+<span class="n">population_no_interp</span>        <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">smoke_rate</span>                  <span class="p">:</span> <span class="n">num</span>  
+<span class="n">mean_bmi</span>                    <span class="p">:</span> <span class="n">num</span>  
+<span class="n">smoke_rate_no_interp</span>        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">mean_bmi_no_interp</span>          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">amb_visit_pct</span>               <span class="p">:</span> <span class="n">num</span>  
+<span class="n">a1c_exm_pct</span>                 <span class="p">:</span> <span class="n">num</span>  
+<span class="n">amb_visit_pct_no_interp</span>     <span class="p">:</span> <span class="n">num</span>  
+<span class="n">a1c_exm_pct_no_interp</span>       <span class="p">:</span> <span class="n">num</span>  
+<span class="n">tmmx</span>                        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">rmax</span>                        <span class="p">:</span> <span class="n">num</span>  
+<span class="n">pr</span>                          <span class="p">:</span> <span class="n">num</span>  
+<span class="n">cluster_cat</span>                 <span class="p">:</span> <span class="nb">chr</span>  
+<span class="n">fips_no_interp</span>              <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">fips</span>                        <span class="p">:</span> <span class="nb">int</span>  
+<span class="n">summer_tmmx</span>                 <span class="p">:</span> <span class="n">num</span>  
+<span class="n">summer_rmax</span>                 <span class="p">:</span> <span class="n">num</span>  
+<span class="n">winter_tmmx</span>                 <span class="p">:</span> <span class="n">num</span>  
+<span class="n">winter_rmax</span>                 <span class="p">:</span> <span class="n">num</span>  
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="ad-adrd-hospitalization">
+<h2>AD/ADRD Hospitalization<a class="headerlink" href="#ad-adrd-hospitalization" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>hospitalization</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar derived</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/dmork/Data/DLM_ADRD</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">hospitalization</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Daniel Mork</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">The first recorded hospitalization for each individual broken down by primary/secondary/any billing code (ICD).</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">1.2 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── First_hosp_AD_any.fst
+   ├── First_hosp_AD_primary.fst
+   ├── First_hosp_ADRD_any.fst
+   ├── First_hosp_ADRD_primary.fst
+   ├── First_hosp_ADRD_secondary.fst
+   └── First_hosp_AD_secondary.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">QID</span>  <span class="p">:</span> <span class="n">Factor</span> 
+<span class="n">ADATE</span><span class="p">:</span> <span class="n">Date</span>
+<span class="n">year</span> <span class="p">:</span> <span class="n">num</span>  
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="medicare-entry-age">
+<h2>Medicare Entry Age<a class="headerlink" href="#medicare-entry-age" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>medicare_entry_age</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MBSF derived</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/scratch/jan2021_whanhee_cache/entry_age/</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">medicare_entry_age</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">2.3 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Jan 26, 2021</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath, Whenhee Lee</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_requests/blob/master/request_projects/jan2021_whanhee_fisrt_hosps/code/1_create_indivdual_vars.R">NSAPH/data_requests</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── medicare_entry_age.csv
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="years-in-medicare">
+<h2>Years in Medicare<a class="headerlink" href="#years-in-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>years_in_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MBSF derived</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/scratch/jan2021_whanhee_cache/follow_up/</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">years_in_medicare</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Number of years a beneficiary has been in Medicare (or in other words, the number of years since one has entered Medicare). Allows for grouping on how long beneficiaries have been in Medicare.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">8.8 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Jan 26, 2021</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath, Whanhee Lee</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_requests/blob/master/request_projects/jan2021_whanhee_fisrt_hosps/code/1_create_indivdual_vars.R">NSAPH/data_requests</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── follow_up_year_2000.fst
+   ├── ...
+   └── follow_up_year_2016.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="temperature-humidity-precipitation">
+<h2>Temperature Humidity Precipitation<a class="headerlink" href="#temperature-humidity-precipitation" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>temperature_seasonal_zipcode</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/ci3_confounders/data_for_analysis/earth_engine/</span> <span class="pre">temperature/temperature_seasonal_zipcode_combined.csv</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">temperature_seasonal_zipcode</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Xiao Wu, Ben Sabath</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Jul 23,  2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Google Earth Engine provides a single interface for interacting with a number of geospatial data sources. The sources used and links to their documentation are: <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_GRIDMET">GRIDMET</a>, <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/NASA_NLDAS_FORA0125_H002">NLDAS</a>, <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD10A1">MODIS MOD10A1.006</a>, <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H">GLDAS</a>, <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_PATMOSX_V53">NOAA CDR PATMOSX</a>, <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSV2_FOR6H">NOAA NCEP Climate Forecast System V2</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2019</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">This dataset contains information on temperature, relative humidity, and total precipitation data. The data is available as raster files on Google earth engine. The temporal and spatial resolutions varied by data source, but all were available at a daily resolution or more frequently. Where the time resolution of the rasters is more than daily, daily averages for each raster were calculated. Next, using Google earth engine’s spatial averaging algorithms and a set of polygons representing the areas of interest, the daily value for each polygon was calculated. The polygons used were the ones described in the preceding section. The results of this calculation were then downloaded as a csv file to the RCE. At this point, there is one file for each year. Following this, annual averages are calculated for each location, and these are combined in to a single file. The daily values are also combined in to a single file. For the <code class="docutils literal notranslate"><span class="pre">combined_zips</span></code> files (which combine the zip code polygon based measures with the the point based estimates to address zip codes without area) there is an additional step. Values for zip codes not in the polygon based measure are taken from the point based measures to address the ~7000 zip codes without area that are missing from the polygon shape file.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_documentation/blob/master/earth_engine_docs/earth_engine_data.Rmd">NSAPH/data_documentation</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">meterological</p></td>
+<td><p class="sd-card-text">Temperature (K) - variable name: tmmx (Source: GRIDMET); Relative Humidity - variable name: rmax (Source: GRIDMET)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">65 MB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">header</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">ZIP,year,summer_tmmx,summer_rmax,winter_tmmx,winter_rmax</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── temperature_seasonal_zipcode_combined.csv
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="pollution-census-temperature-covariates">
+<h2>Pollution-Census-Temperature covariates<a class="headerlink" href="#pollution-census-temperature-covariates" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>merged_covariates_pm_census_temp</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">US Census/ACS, Business Analyst Data Set, BRFSS</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/ci3_health_data/medicare/</span> <span class="pre">mortality/1999_2016/wu/output_data</span> <span class="pre">/merged_covariates.csv</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">merged_covariates_pm_census_temp</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Xiao Wu, Ben Sabath</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">May 29, 2019</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://www.science.org/doi/10.1126/sciadv.aba5692">https://www.science.org/doi/10.1126/sciadv.aba5692</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_documentation/blob/master/nejm_confounder_summary/nejm_confounders.csv">nejm_confounder_summary/nejm_confounder</a> and <a class="reference external" href="https://github.com/NSAPH/data_documentation/blob/master/rce_data_list/confounder_data.csv">rce_data_list/confounder_data</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">296 MB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">header</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">zip,</span> <span class="pre">year,</span> <span class="pre">pm25_ensemble,</span> <span class="pre">pm25_no_interp,</span> <span class="pre">pm25_nn,</span> <span class="pre">ozone,</span> <span class="pre">ozone_no_interp,</span> <span class="pre">zcta,</span> <span class="pre">poverty,</span> <span class="pre">popdensity,</span> <span class="pre">medianhousevalue,</span> <span class="pre">pct_blk,</span> <span class="pre">medhouseholdincome,</span> <span class="pre">pct_owner_occ,</span> <span class="pre">hispanic,</span> <span class="pre">education,</span> <span class="pre">population,</span> <span class="pre">zcta_no_interp,</span> <span class="pre">poverty_no_interp,</span> <span class="pre">popdensity_no_interp,</span> <span class="pre">medianhousevalue_no_interp,</span> <span class="pre">pct_blk_no_interp,</span> <span class="pre">medhouseholdincome_no_interp,</span> <span class="pre">pct_owner_occ_no_interp,</span> <span class="pre">hispanic_no_interp,</span> <span class="pre">education_no_interp,</span> <span class="pre">population_no_interp,</span> <span class="pre">smoke_rate,</span> <span class="pre">mean_bmi,</span> <span class="pre">smoke_rate_no_interp,</span> <span class="pre">mean_bmi_no_interp,</span> <span class="pre">amb_visit_pct,</span> <span class="pre">a1c_exm_pct,</span> <span class="pre">amb_visit_pct_no_interp,</span> <span class="pre">a1c_exm_pct_no_interp,</span> <span class="pre">tmmx,</span> <span class="pre">rmax,</span> <span class="pre">pr,</span> <span class="pre">cluster_cat,</span> <span class="pre">fips,</span> <span class="pre">fips_no_interp</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── merged_covariates.csv
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="population-weighted-daily-county-level-heat-metrics">
+<h2>Population-Weighted Daily County-Level Heat Metrics<a class="headerlink" href="#population-weighted-daily-county-level-heat-metrics" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>county_heat_metrics</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">ERA5-Land gridded data</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">heatvars_county_2000-2020</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Keith Spangler</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">June 17, 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">county</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2020</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">daily</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/35715416/">https://pubmed.ncbi.nlm.nih.gov/35715416/</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">1.03 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">header</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">&quot;StCoFIPS&quot;,</span> <span class="pre">&quot;Date&quot;,</span> <span class="pre">&quot;Tmin_C&quot;,</span> <span class="pre">&quot;Tmax_C&quot;,</span> <span class="pre">&quot;Tmean_C&quot;,</span> <span class="pre">&quot;TDmin_C&quot;,</span> <span class="pre">&quot;TDmax_C&quot;,</span> <span class="pre">&quot;TDmean_C&quot;,</span> <span class="pre">&quot;NETmin_C&quot;,</span> <span class="pre">&quot;NETmax_C&quot;,</span> <span class="pre">&quot;NETmean_C&quot;,</span> <span class="pre">&quot;HImin_C&quot;,</span> <span class="pre">&quot;HImax_C&quot;,</span> <span class="pre">&quot;HImean_C&quot;,</span> <span class="pre">&quot;HXmin_C&quot;,</span> <span class="pre">&quot;HXmax_C&quot;,</span> <span class="pre">&quot;HXmean_C&quot;,</span> <span class="pre">&quot;WBGTmin_C&quot;,</span> <span class="pre">&quot;WBGTmax_C&quot;,</span> <span class="pre">&quot;WBGTmean_C&quot;,</span> <span class="pre">&quot;UTCImin_C&quot;,</span> <span class="pre">&quot;UTCImax_C&quot;,</span> <span class="pre">&quot;UTCImean_C&quot;,</span> <span class="pre">&quot;Flag_T&quot;,</span> <span class="pre">&quot;Flag_TD&quot;,</span> <span class="pre">&quot;Flag_NET&quot;,</span> <span class="pre">&quot;Flag_HI&quot;,</span> <span class="pre">&quot;Flag_HX&quot;,</span> <span class="pre">&quot;Flag_WBGT&quot;,</span> <span class="pre">&quot;Flag_UTCI&quot;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── Heatvars_County_2000-2020_v1.2.Rds
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="medicaid-respiratory-hospitalizations-in-children">
+<h2>Medicaid - Respiratory Hospitalizations in Children<a class="headerlink" href="#medicaid-respiratory-hospitalizations-in-children" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>medicaid_children_99-12</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Medicaid</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/ci3_health_data/medicaid/respiratory</span> <span class="pre">/1999_2012/youth_resp_hosps_jlee/data</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">medicaid_children_99-12</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jenny Lee</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">2021</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2012</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">The data prepared for this project consists of the Medicaid Fee For Service population, with unrestricted Medicaid benefits, under the age of 20 from 1999-2012. This data also includes all hospitalizations for that population, with indicators included regarding whether or not they were associated with a set of respiratory hospitalizations. See the schema for the hospitalization data below for details on specific indicators.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_requests/tree/master/request_projects/feb2021_jenny_medicaid_resp">NSAPH/data_requests</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">exposures</p></td>
+<td><p class="sd-card-text">Xiao Wu’s CausalGPS PM2.5 data</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">14 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── denom
+│   ├── denom_under_20_1999.fst
+│   ├── ...
+│   └── denom_under_20_2012.fst
+└── hosps
+    ├── under_20_admissions_1999.fst
+    ├── ...
+    └── under_20_admissions_2012.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="exposure-census-brffs-confounders">
+<h2>Exposure-census-BRFFS confounders<a class="headerlink" href="#exposure-census-brffs-confounders" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>confounders</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">US Census, BRFSS</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/nsaph_ci3/scratch/jan2021_whanhee_cache/cache_dir/</span> <span class="pre">merged_exposure_confounders/</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">confounders</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath, Whanhee Lee</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Apr 23, 2021</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode, zcta</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_requests/blob/master/request_projects/jan2021_whanhee_fisrt_hosps/code/6_join_exposure_to_confounders.R">data_requests</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">247 MB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">header</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">ZIP,</span> <span class="pre">year,</span> <span class="pre">zcta,</span> <span class="pre">poverty,</span> <span class="pre">popdensity,</span> <span class="pre">medianhousevalue,</span> <span class="pre">pct_blk,</span> <span class="pre">medhouseholdincome,</span> <span class="pre">pct_owner_occ,</span> <span class="pre">hispanic,</span> <span class="pre">education,</span> <span class="pre">population,</span> <span class="pre">pct_asian,</span> <span class="pre">pct_native,</span> <span class="pre">pct_white,</span> <span class="pre">smoke_rate,</span> <span class="pre">mean_bmi,</span> <span class="pre">pm25.current_year,</span> <span class="pre">ozone.current_year,</span> <span class="pre">no2.current_year,</span> <span class="pre">ozone_summer.current_year,</span> <span class="pre">pm25.one_year_lag,</span> <span class="pre">ozone.one_year_lag,</span> <span class="pre">no2.one_year_lag,</span> <span class="pre">ozone_summer.one_year_lag</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── merged_confounders_2000.csv
+   ├── ...
+   └── merged_confounders_2016.csv
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="adrd-hospitalization-records">
+<h2>ADRD Hospitalization Records<a class="headerlink" href="#adrd-hospitalization-records" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>adrd_hospitalization</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Shuxin Dong</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Jan 27, 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode (unaggregated)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">daily (with admission date)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">extract the ADRD hospitalizations based on the Chronic Condition Warehouse</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/</span> <span class="pre">data_ADRDhospitalization/</span> <span class="pre">ADRDhospitalization_CCWlist/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">adrd_hospitalization</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">1.9 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="github reference external" href="https://github.com/ShuxinD/ADRDdata">ShuxinD/ADRDdata</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">other</p></td>
+<td><p class="sd-card-text">The Chronic Condition Warehouse list for ADRD: <a class="reference external" href="https://www2.ccwdata.org/web/guest/condition-categories">https://www2.ccwdata.org/web/guest/condition-categories</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── ADRD_2000.fst
+   ├── ...
+   └── ADRD_2016.fst
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+header<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">QID</span>           <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">ADATE</span>         <span class="p">:</span> <span class="n">Date</span>
+<span class="n">DDATE</span>         <span class="p">:</span> <span class="n">Date</span>
+<span class="n">zipcode_R</span>     <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">DIAG1</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG2</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG3</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG4</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG5</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG6</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG7</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG8</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG9</span>         <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">DIAG10</span>        <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">AGE</span>           <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">Sex_gp</span>        <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">Race_gp</span>       <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">SSA_STATE_CD</span>  <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">SSA_CNTY_CD</span>   <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">PROV_NUM</span>      <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">ADM_SOURCE</span>    <span class="p">:</span> <span class="nb">chr</span> 
+<span class="n">ADM_TYPE</span>      <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">Dual</span>          <span class="p">:</span> <span class="nb">int</span> 
+<span class="n">year</span>          <span class="p">:</span> <span class="n">num</span> 
+<span class="n">AD_primary</span>    <span class="p">:</span> <span class="n">logi</span>
+<span class="n">AD_any</span>        <span class="p">:</span> <span class="n">logi</span>
+<span class="n">AD_secondary</span>  <span class="p">:</span> <span class="n">logi</span>
+<span class="n">ADRD_primary</span>  <span class="p">:</span> <span class="n">logi</span>
+<span class="n">ADRD_any</span>      <span class="p">:</span> <span class="n">logi</span>
+<span class="n">ADRD_secondary</span><span class="p">:</span> <span class="n">logi</span>
+</pre></div>
+</div>
+</div>
+</details></div>
+</details></section>
+<section id="medpar-file-2000-2016-clean">
+<h2>Medpar File 2000-2016 Clean<a class="headerlink" href="#medpar-file-2000-2016-clean" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>medpar_hospital_clean_0619</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Mahdieh Danesh Yazdi</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">May 2019</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">1.8 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode, city</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">admissions date</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">processing_description</p></td>
+<td><p class="sd-card-text">The data was limited to the years 2000-2016 (1999 was dropped). Demographic data was removed (use demographic data from denominator file). Duplicated admission records were removed. For multiple admissions on the same day, the longer length of stay was kept and those without missing diagnositic codes. Subset data to keep only first two diagnostic codes. A diabetes varible was created (would review ICD codes used clinically prior to use).</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mdaneshyazdi/Medpar_Data/</span> <span class="pre">data/medpar_hospital_clean_0619.rds</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">medpar_hospital_clean_0619</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── medpar_hospital_clean_0619.rds
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="denominator-file-2000-2016-clean">
+<h2>Denominator File 2000-2016 Clean<a class="headerlink" href="#denominator-file-2000-2016-clean" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>denominator_clean_0619</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Mahdieh Danesh Yazdi</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">May 2019</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">3.8 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">processing_description</p></td>
+<td><p class="sd-card-text">The data was limited to the years 2000-2016 (1999 was dropped). Rows with empty or missing QID values were dropped. Those whose sex changed through follow up were dropped. Those whose race changed through follow up were assigned “Other/Unknown” category. Those who had multiple dates of death in different years were dropped. For those with multiple dates of death in the same year, earlier date of death was assigned. If duplicate rows existed, one with date of death and one without, the row with non-missing date of death was kept. Multiple QID-year rows with differing values of other variables were removed. Observations with invalid zip codes were removed. Warning: There may be excess deaths on the last day of the month due to CMS processing. Sometimes when the exact date of death is unknown, it is assigned to the last day of the month.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mdaneshyazdi/Denominator_Data/</span> <span class="pre">data/denominator_clean_0619.rds</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">denominator_clean_0619</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── denominator_clean_0619.rds
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="denominator-clean-merged-with-exposure-and-covariate-data">
+<h2>Denominator Clean Merged with Exposure and Covariate Data<a class="headerlink" href="#denominator-clean-merged-with-exposure-and-covariate-data" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>merged_denominator_clean_0619_exp_conf</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Mahdieh Danesh Yazdi</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">February 2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">30 GB (<code class="docutils literal notranslate"><span class="pre">fst</span></code>) and 4.4 GB (<code class="docutils literal notranslate"><span class="pre">rds</span></code>)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">The clean denominator file merged with annual PM2.5, NO2, O3 levels from 1-km exposure models generated by Qian Di and Weeberb Requia aggregatetd to zip code level by Yaguang Wei. Also merged with covariate data from the Census, ACS, BRFSS, and Dartmouth Health Atlas created by Ben Sabath. Missing values were filled in using interpolated/extrapolated values from Liuhua Shi. (Negative values were set to 0 and values greater than 100% were set to 100%). Other missing values were dropped. The exposure values and covariate data may need to updated depending on study being done.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mdaneshyazdi/</span> <span class="pre">Merged_Data/data/denominator.rds</span></code> and <code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mdaneshyazdi/</span> <span class="pre">Merged</span> <span class="pre">Data/denominator.fst</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">merged_denominator_clean_0619_exp_conf</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   ├── denominator.rds
+   └── denominator.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="hospital-admissions-merged-with-denominator-exposure-and-covariates">
+<h2>Hospital Admissions Merged with Denominator, Exposure, and Covariates<a class="headerlink" href="#hospital-admissions-merged-with-denominator-exposure-and-covariates" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>national_exp_0621</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Mahdieh Danesh Yazdi</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Jun 2021</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">The clean denominator file merged with the clean hospital admissions data, limited to FFS patients, and then merged with annual PM2.5, NO2, O3 levels and Warm-season O3 levels from 1-km exposure models generated by Qian Di and Weeberb Requia aggregatetd to zip code level by Yaguang Wei. Also merged with covariate data from the Census, ACS, BRFSS, and Dartmouth Health Atlas created by Ben Sabath. Missing values were filled in using interpolated/extrapolated values from Liuhua Shi. (Negative values were set to 0 and values greater than 100% were set to 100%). Other missing values were dropped. The exposure values and covariate data may need to updated depending on study being done. Individuals may have multiple admissions per year.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">32 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mdaneshyazdi/</span> <span class="pre">Merged_Data/data/national_exp_0621.fst</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">national_exp_0621</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── national_exp_0621.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-2010-2016-medicare-mortality-data-with-pm2-5-exposure-and-zip-code-level-variables">
+<h2>Aggregated 2010-2016 Medicare Mortality Data with PM2.5 Exposure and ZIP code level variables<a class="headerlink" href="#aggregated-2010-2016-medicare-mortality-data-with-pm2-5-exposure-and-zip-code-level-variables" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregate_medicare_data_2010to2016</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">This data contain (annually aggregated) exposure to PM2.5 data, demographic data from census and mortality data + individual level characteristics for the entire Medicare population in 1999-2016. See <a class="reference external" href="https://www.science.org/doi/10.1126/sciadv.aba5692">Xiao’s paper</a> for processing description.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Xiao Wu, Ben Sabath</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">2020</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Medicaid, Exposure Data, Census Data</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2010-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">Annually</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://www.science.org/doi/10.1126/sciadv.aba5692">https://www.science.org/doi/10.1126/sciadv.aba5692</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~shared_space/ci3_analysis/causal_rule_ensemble</span> <span class="pre">/aggregate_medicare_data_2010to2016.fst</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregate_medicare_data_2010to2016</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="github reference external" href="https://github.com/wxwx1993/National_Causal">wxwx1993/National_Causal</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   └── aggregate_medicare_data_2010to2016.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="nationwide-medicare-strata">
+<h2>Nationwide Medicare Strata<a class="headerlink" href="#nationwide-medicare-strata" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>erc_strata</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Kevin Josey</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Aug 5 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Medicare File from Xiao et al.’s Science Advances paper (see <code class="docutils literal notranslate"><span class="pre">denom_by_year</span></code>)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">contiguous US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annual</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Data were divided and aggregated into custom strata, then subsetted depending on several individual factors. I further merged these data tables with neighborhood level covariates.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/josey_erc_strata/Data</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">erc_strata</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="github reference external" href="https://github.com/kevjosey/erc-strata">kevjosey/erc-strata</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">6.9 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── aggregate_data_qd.RData
+├── aggregate_data_rm.RData
+├── national_merged2016_qd.RData
+├── national_merged2016_rm.RData
+├── qd
+│   ├── 0_all_qd.RData
+│   ├── 0_asian_qd.RData
+│   ├── 0_black_qd.RData
+│   ├── 0_hispanic_qd.RData
+│   ├── 0_white_qd.RData
+│   ├── 1_all_qd.RData
+│   ├── 1_asian_qd.RData
+│   ├── 1_black_qd.RData
+│   ├── 1_hispanic_qd.RData
+│   ├── 1_white_qd.RData
+│   ├── 2_all_qd.RData
+│   ├── 2_asian_qd.RData
+│   ├── 2_black_qd.RData
+│   ├── 2_hispanic_qd.RData
+│   └── 2_white_qd.RData
+└── rm
+    ├── 0_all_rm.RData
+    ├── 0_asian_rm.RData
+    ├── 0_black_rm.RData
+    ├── 0_hispanic_rm.RData
+    ├── 0_white_rm.RData
+    ├── 1_all_rm.RData
+    ├── 1_asian_rm.RData
+    ├── 1_black_rm.RData
+    ├── 1_hispanic_rm.RData
+    ├── 1_white_rm.RData
+    ├── 2_all_rm.RData
+    ├── 2_asian_rm.RData
+    ├── 2_black_rm.RData
+    ├── 2_hispanic_rm.RData
+    └── 2_white_rm.RData
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="cvd-medicaid">
+<h2>CVD Medicaid<a class="headerlink" href="#cvd-medicaid" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>cvd_medicaid</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">January 28, 2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Medicaid</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US (continental)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2002-2012</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">daily</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">86 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH/data_requests/tree/master/request_projects/dec2019_medicaid_platform_cvd">dec2019_medicaid_platform_cvd</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data</span> <span class="pre">/medicaid/cvd/2010_2011/desouza-2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">cvd_medicaid</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7896354/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7896354/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [2.3G]  cvd.csv
+├── [2.1G]  cvd.sas7bdat
+├── [6.3K]  CVD-specific data dictionary-07-12-2018.docx
+├── [6.8K]  data_dictionary.md
+├── [ 70G]  merged_cvd_data.csv
+├── [ 18K]  merge.out
+│   ├── [5.7K]  log.txt
+│   ├── [  77]  r_error.0
+│   └── [ 12K]  r_out.0
+├── [1.7K]  merge.R
+├── [ 906]  readme
+└── [ 899]  r.submit
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-cvd-cohort-medicare">
+<h2>Aggregated CVD cohort Medicare<a class="headerlink" href="#aggregated-cvd-cohort-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_cvd_cohort_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jochem Klompmaker</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">April 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data and merged with confounders and exposures (NO2, PM2.5, ozone, temperature, humidity). Person records were aggregated by zip code, year and individual demographics</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/gen_admission</span> <span class="pre">/1999_2016/Klompmaker/merged_data/cvd2/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_cvd_cohort_medicare</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">38 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [4.2G]  aggregate_CVD_65yrs.fst
+├── [3.8G]  aggregate_CVD_75yrs.fst
+├── [3.1G]  aggregate_CVD_85yrs.fst
+├── [6.5G]  aggregate_CVD.fst
+├── [4.8G]  aggregate_death_CVD.fst
+├── [4.6G]  aggregate__excl_1yrhosp_CVD.fst
+├── [4.3G]  aggregate_excl_1yrhosp_RES.fst
+├── [1.2M]  cc_zipyear_all.fst
+├── [1.2M]  cc_zipyear_confounder.fst
+├── [941K]  cc_zipyear_cvd.fst
+├── [347M]  CVD_count.fst
+├── [354M]  CVD_death_count.fst
+├── [439M]  time_count.fst
+└── [439M]  time_death_count.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-chd-cohort-medicare">
+<h2>Aggregated CHD cohort Medicare<a class="headerlink" href="#aggregated-chd-cohort-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_chd_cohort_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jochem Klompmaker</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">April 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data and merged with confounders and exposures (NO2, PM2.5, ozone, temperature, humidity). Person records were aggregated by zip code, year and individual demographics</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare</span> <span class="pre">/gen_admission</span> <span class="pre">/1999_2016/Klompmaker/merged_data/chd2/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_chd_cohort_medicare</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">35 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [4.1G]  aggregate_CHD_65yrs.fst
+├── [3.8G]  aggregate_CHD_75yrs.fst
+├── [3.2G]  aggregate_CHD_85yrs.fst
+├── [ 14G]  aggregate_CHD.fst
+├── [4.3G]  aggregate_excl_1yrhosp_CHD.fst
+├── [1.2M]  cc_zipyear_chd.fst
+├── [ 92M]  CHD_count.fst
+└── [116M]  time_count.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-cbv-cohort-medicare">
+<h2>Aggregated CBV cohort Medicare<a class="headerlink" href="#aggregated-cbv-cohort-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_cbv_cohort_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jochem Klompmaker</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">April 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data and merged with confounders and exposures (NO2, PM2.5, ozone, temperature, humidity). Person records were aggregated by zip code, year and individual demographics</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/gen_admission</span> <span class="pre">/1999_2016/Klompmaker/merged_data/cbv2/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_cbv_cohort_medicare</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">35 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [4.1G]  aggregate_CBV_65yrs.fst
+├── [3.8G]  aggregate_CBV_75yrs.fst
+├── [3.2G]  aggregate_CBV_85yrs.fst
+├── [ 14G]  aggregate_CBV.fst
+├── [4.4G]  aggregate__excl_1yrhosp_CBV.fst
+├── [ 93M]  CBV_count.fst
+├── [1.2M]  cc_zipyear_cbv.fst
+└── [117M]  time_count.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-adrd-cohort-medicare">
+<h2>Aggregated ADRD cohort Medicare<a class="headerlink" href="#aggregated-adrd-cohort-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_adrd_cohort_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jochem Klompmaker</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">February 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data and merged with confounders and exposures (NDVI, blue space, park cover, NO2, PM2.5, ozone, temperature, humidity). Person records were aggregated by zip code, year and individual demographics</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/gen_admission</span> <span class="pre">/1999_2016/Klompmaker/merged_data/alz2/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_adrd_cohort_medicare</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">28 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [3.6G]  aggregate_ALZ_65yrs.fst
+├── [3.4G]  aggregate_ALZ_75yrs.fst
+├── [2.8G]  aggregate_ALZ_85yrs.fst
+├── [4.5G]  aggregate_ALZ.fst
+├── [4.4G]  aggregate_death_ALZ.fst
+├── [3.8G]  aggregate_excl_1yrhosp_ALZ.fst
+├── [358M]  ALZ_count.fst
+├── [387M]  ALZ_death_count.fst
+├── [471M]  time_count.fst
+└── [472M]  time_death_count.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-pd-cohort-medicare">
+<h2>Aggregated PD cohort Medicare<a class="headerlink" href="#aggregated-pd-cohort-medicare" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_pd_cohort_medicare</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Jochem Klompmaker</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">February 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data and merged with confounders and exposures (NDVI, blue space, park cover, NO2, PM2.5, ozone, temperature, humidity). Person records were aggregated by zip code, year and individual demographics.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare</span> <span class="pre">/gen_admission/1999_2016</span> <span class="pre">/Klompmaker/merged_data/par2/</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_pd_cohort_medicare</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">29 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [4.4G]  aggregate_death_PAR.fst
+├── [4.4G]  aggregate_excl_1yrhosp_PAR.fst
+├── [3.7G]  aggregate_PAR_65yrs.fst
+├── [3.4G]  aggregate_PAR_75yrs.fst
+├── [2.9G]  aggregate_PAR_85yrs.fst
+├── [4.6G]  aggregate_PAR.fst
+├── [ 94M]  PAR_count.fst
+├── [405M]  PAR_death_count.fst
+├── [222M]  time_count.fst
+└── [486M]  time_death_count.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="daily-county-level-heatwave-associated-hospitalizations">
+<h2>Daily County Level Heatwave Associated Hospitalizations<a class="headerlink" href="#daily-county-level-heatwave-associated-hospitalizations" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>daily_county_level_heatwave_assosciated_hospitalizations</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">July 10, 2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">7.7 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator), Medicaid MAX</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">county</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2006-2016, 1999-2016</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">daily</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">FIPS code, race, sex, age, and dual eligibility were determined for each case based on the information in the patient summary file for that individual in the year of their admission. The denominator for each observation is calculated monthly and contains all individuals who are eligible for Fee for Service (FFS) hospitalization coverage and have not died prior to that month. The CCS codes included were 2, 50, 55, 114, 157, 159, and 244. ICD processing done using the ICD package(Wasey 2018). The author of this package asks that it be cited in papers using data that was created using the package.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data/medicare/heat_related</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">daily_county_level_heatwave_assosciated_hospitalizations</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://arxiv.org/abs/2102.10478">https://arxiv.org/abs/2102.10478</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="github reference external" href="https://github.com/wxwx1993/TS_Stochastic">wxwx1993/TS_Stochastic</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── 1999_2016
+│   └── county_ccs_hosps
+│       ├── cache_dir
+│       │   ├── daily_counts
+│       │   │   ├── daily_counts_by_ccs_1999.fst
+│       │   │   ├── ...
+│       │   │   └── daily_counts_by_ccs_2016.fst
+│       │   └── denom
+│       │       ├── ffs_patient_summary_by_county_1999.fst
+│       │       ├── ...
+│       │       └── ffs_patient_summary_by_county_2016.fst
+│       ├── data
+│       │   ├── daily_ccs_heatwave_counts_by_fips_1999.fst
+│       │   ├── ...
+│       │   └── daily_ccs_heatwave_counts_by_fips_2016.fst
+│       └── data_daily_hosp_mort
+│           ├── daily_only_ccs_heatwave_hosp_mort_counts_by_fips_1999.fst
+│           ├── ...
+│           └── daily_only_ccs_heatwave_hosp_mort_counts_by_fips_2016.fst
+└── 2006_2016
+    └── county_ccs_hosps
+        ├── cache_dir
+        │   ├── daily_counts
+        │   │   ├── daily_counts_by_ccs_2006.fst
+        │   │   ├── ...
+        │   │   └── daily_counts_by_ccs_2016.fst
+        │   └── denom
+        │       ├── ffs_patient_summary_by_county_2006.fst
+        │       ├── ...
+        │       └── ffs_patient_summary_by_county_2016.fst
+        ├── data
+        │   ├── daily_ccs_heatwave_counts_by_fips_2006.fst
+        │   ├── ...
+        │   ├── daily_ccs_heatwave_counts_by_fips_2016.fst
+        │   ├── Daily_Heat_CCS_2006-2016_with_Temperature_by_WFO.Rda
+        │   ├── Daily_Heat_CCS_2006-2016_with_Temperature_by_WFO_v0.Rda
+        │   ├── Daily_Heat_CCS_2006-2016_with_Temperature_ERA5Land.Rda
+        │   ├── Daily_Heat_CCS_2006-2016_with_Temperature.Rda
+        │   └── Daily_Heat_CCS_2006-2016_with_Temperature_v0.Rda
+        ├── readme.md
+        └── schema.yml
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="hospitalizations-for-kidney-disease-and-comorbidities">
+<h2>Hospitalizations for kidney disease and comorbidities<a class="headerlink" href="#hospitalizations-for-kidney-disease-and-comorbidities" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>medicare_for_kidney_diseases</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ana Trisovic</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">July 10, 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator), confounders</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/NSAPH-Data-Processing/mbsf-medpar-aki-first-hospitalization">mbsf-medpar-aki-first-hospitalization</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">description</p></td>
+<td><p class="sd-card-text">Special modifications for the kidney diseases for numerators and denominators (people at risk) for the analysis by Whanhee Lee.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/whanhee_revisions</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">medicare_for_kidney_diseases</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">31 GB</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">header</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">year,</span> <span class="pre">sex,</span> <span class="pre">race,</span> <span class="pre">zip,</span> <span class="pre">dual,</span> <span class="pre">follow_up,</span> <span class="pre">entry_age_group,</span> <span class="pre">aki_primary_secondary_first_hosp,</span> <span class="pre">aki_primary_secondary_first_hosp_denom,</span> <span class="pre">ckdhosp_prior_aki,</span> <span class="pre">ckdhosp_prior_aki_denom,</span> <span class="pre">diabeteshosp_prior_aki,</span> <span class="pre">diabeteshosp_prior_aki_denom,</span> <span class="pre">diabetes_primary_aki_secondary_first_hosp,</span> <span class="pre">diabetes_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">csd_primary_aki_secondary_first_hosp,</span> <span class="pre">csd_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">ihd_primary_aki_secondary_first_hosp,</span> <span class="pre">ihd_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">pneumonia_primary_aki_secondary_first_hosp,</span> <span class="pre">pneumonia_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">hf_primary_aki_secondary_first_hosp,</span> <span class="pre">hf_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">ami_primary_aki_secondary_first_hosp,</span> <span class="pre">ami_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">cerd_primary_aki_secondary_first_hosp,</span> <span class="pre">cerd_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">uti_primary_aki_secondary_first_hosp,</span> <span class="pre">uti_primary_aki_secondary_first_hosp_denom,</span> <span class="pre">zcta,</span> <span class="pre">poverty,</span> <span class="pre">popdensity,</span> <span class="pre">medianhousevalue,</span> <span class="pre">pct_blk,</span> <span class="pre">medhouseholdincome,</span> <span class="pre">pct_owner_occ,</span> <span class="pre">hispanic,</span> <span class="pre">education,</span> <span class="pre">population,</span> <span class="pre">pct_asian,</span> <span class="pre">pct_native,</span> <span class="pre">pct_white,</span> <span class="pre">smoke_rate,</span> <span class="pre">mean_bmi,</span> <span class="pre">pm25.current_year,</span> <span class="pre">ozone.current_year,</span> <span class="pre">no2.current_year,</span> <span class="pre">ozone_summer.current_year,</span> <span class="pre">pm25.one_year_lag,</span> <span class="pre">ozone.one_year_lag,</span> <span class="pre">no2.one_year_lag,</span> <span class="pre">ozone_summer.one_year_lag</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>└── [ 27G]  final.csv
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="ihd-medicare-hospitalizations-2005">
+<h2>IHD medicare hospitalizations (2005)<a class="headerlink" href="#ihd-medicare-hospitalizations-2005" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>ihd_medicare_hosp_2005</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_name</p></td>
+<td><p class="sd-card-text">IHD medicare hospitalizations (2005)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Cory Zigler</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Oct 4 2018</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2005</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">234 MB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_analysis/</span> <span class="pre">zigler_lab/projects/</span> <span class="pre">BipartiteInterference_GPS/</span> <span class="pre">BipartiteInterference_GPS/</span> <span class="pre">Data</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">ihd_medicare_hosp_2005</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [4.8K]  00Tree.html
+├── [348K]  AnnualFacilityData.Rda
+├── [773K]  AnnualUnitData.Rda
+├── [ 12K]  Create Analysis Data.R
+├── [6.4K]  Create HyADS Adjacency Matrix.R
+├── [9.3K]  Create Power Plant Data.R
+├── [5.8K]  Create Zip Code Data.R
+├── [ 10M]  data_nomed.Rda
+├── [ 31K]  facilities_for_analysis.Rda
+├── [ 53M]  HyADSmat.Rda
+├── [108M]  HyADSmat_replaced20191212.Rda
+├── [3.1M]  MonthlyFacilityData.Rda
+├── [9.7M]  MonthlyUnitData.Rda
+├── [ 11M]  out.zip_pp.rda
+├── [ 114]  Readme
+├── [5.6M]  ZipcodeData.Rda
+└── [ 89K]  zips_included.rda
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="daily-florida-hospitalization-counts-by-zip">
+<h2>Daily Florida Hospitalization Counts by Zip<a class="headerlink" href="#daily-florida-hospitalization-counts-by-zip" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>daily-florida-hosp-counts-zip</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Ben Sabath, Kate Burrows</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">February 07 2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">MedPar (admissions), MBSF (denominator)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">Florida</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">daily</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">processing_description</p></td>
+<td><p class="sd-card-text">Denominator file linked with hospitalization data. This is the raw unprocessed data.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">2.1 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_health_data</span> <span class="pre">/medicare/gen_admission</span> <span class="pre">/1999_2016/burrows/cache_data</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">daily-florida-hosp-counts-zip</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [308K]  Burrows_DataRequest_September2019.pdf
+├── [ 19M]  death_count
+│   ├── [1.0M]  death_count_1999.fst
+│   ├── [1.0M]  ...
+│   └── [1.2M]  death_count_2016.fst
+├── [104M]  hosp_count
+│   ├── [5.5M]  hosp_count_1999.fst
+│   ├── [5.6M]  ...
+│   └── [5.2M]  hosp_count_2016.fst
+├── [1.6G]  merged_data
+│   ├── [ 86M]  daily_zips_1999.fst
+│   ├── [106M]  ...
+│   └── [106M]  daily_zips_2016.fst
+└── [7.2M]  zip_denom
+    ├── [382K]  zip_denom_1999.fst
+    ├── [440K]  ...
+    └── [450K]  zip_denom_2016.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="coal-pm2-5-source-impacts">
+<h2>Coal PM2.5 Source Impacts<a class="headerlink" href="#coal-pm2-5-source-impacts" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>coal_exposure_pm25</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Lucas Henneman</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">Sep 14, 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">HyADS exposure modeling</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">1999-2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">/nfs/home/H/henneman</span> <span class="pre">/shared_space/ci3_nsaph/</span> <span class="pre">LucasH/disperseR/</span> <span class="pre">main/output/</span> <span class="pre">zips_model.lm.cv_single_poly</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">coal_exposure_pm25</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">GitHub repository/directory on how the data was processed</p></td>
+<td><p class="sd-card-text"><a class="github reference external" href="https://github.com/lhenneman/coal_unit_PM25">lhenneman/coal_unit_PM25</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">exposures</p></td>
+<td><p class="sd-card-text">This was created with the HyADS model using emissions from EPA’s CAMD database.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">meterological</p></td>
+<td><p class="sd-card-text">NOAA/NCAR reanalysis data.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">6.3 GB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── [300M]  zips_pm25_byunit_1999.fst
+├── [291M]  ...
+├── [134M]  zips_pm25_byunit_2020.fst
+├── [599K]  zips_pm25_total_1999.fst
+├── [599K]  ...
+└── [599K]  zips_pm25_total_2020.fst
+</pre></div>
+</div>
+</div>
+</details></section>
+<section id="aggregated-2000-2016-medicare-mortality-data-with-pm2-5-exposure-by-zip-code">
+<h2>Aggregated 2000-2016 Medicare Mortality Data with PM2.5 Exposure by ZIP code<a class="headerlink" href="#aggregated-2000-2016-medicare-mortality-data-with-pm2-5-exposure-by-zip-code" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>aggregated_2000-2016_medicare_mortality_pm25_zip</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p class="sd-card-text">dataset_author</p></td>
+<td><p class="sd-card-text">Xiao Wu, Ben Sabath</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">date_created</p></td>
+<td><p class="sd-card-text">2020</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">data_source</p></td>
+<td><p class="sd-card-text">Medicaid, Exposure Data, Census Data</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">spatial_coverage</p></td>
+<td><p class="sd-card-text">US</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">spatial_resolution</p></td>
+<td><p class="sd-card-text">zipcode</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">temporal_coverage</p></td>
+<td><p class="sd-card-text">2000-2016</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">temporal_resolution</p></td>
+<td><p class="sd-card-text">Annually</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">processing_description</p></td>
+<td><p class="sd-card-text">See <a class="reference external" href="https://www.science.org/doi/10.1126/sciadv.aba5692">Xiao’s paper</a> for processing description.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">rce_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">~/shared_space/ci3_mic6949/</span> <span class="pre">input_data/aggregate_data.RDS</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">fasse_location</p></td>
+<td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">aggregated_2000-2016_medicare_mortality_pm25_zip</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">publication</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://www.science.org/doi/10.1126/sciadv.aba5692">Xiao’s paper</a></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">git_repository</p></td>
+<td><p class="sd-card-text"><a class="reference external" href="https://github.com/wxwx1993/National_Causal">National_Causal</a></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">size</p></td>
+<td><p class="sd-card-text">166 MB</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">files</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>└── [166M]  aggregate_data.RDS
+</pre></div>
+</div>
+</div>
+</details></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medpar-admissions">MedPar (Admissions)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mbsf-denominator">MBSF (Denominator)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annual-exposure-per-medicare-beneficiary">Annual Exposure per Medicare Beneficiary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mbsf-enrollment-file-denominator">MBSF (Enrollment file, denominator)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ad-adrd-hospitalization">AD/ADRD Hospitalization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medicare-entry-age">Medicare Entry Age</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#years-in-medicare">Years in Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temperature-humidity-precipitation">Temperature Humidity Precipitation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pollution-census-temperature-covariates">Pollution-Census-Temperature covariates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#population-weighted-daily-county-level-heat-metrics">Population-Weighted Daily County-Level Heat Metrics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medicaid-respiratory-hospitalizations-in-children">Medicaid - Respiratory Hospitalizations in Children</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exposure-census-brffs-confounders">Exposure-census-BRFFS confounders</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adrd-hospitalization-records">ADRD Hospitalization Records</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#medpar-file-2000-2016-clean">Medpar File 2000-2016 Clean</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denominator-file-2000-2016-clean">Denominator File 2000-2016 Clean</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denominator-clean-merged-with-exposure-and-covariate-data">Denominator Clean Merged with Exposure and Covariate Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hospital-admissions-merged-with-denominator-exposure-and-covariates">Hospital Admissions Merged with Denominator, Exposure, and Covariates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-2010-2016-medicare-mortality-data-with-pm2-5-exposure-and-zip-code-level-variables">Aggregated 2010-2016 Medicare Mortality Data with PM2.5 Exposure and ZIP code level variables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nationwide-medicare-strata">Nationwide Medicare Strata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cvd-medicaid">CVD Medicaid</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-cvd-cohort-medicare">Aggregated CVD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-chd-cohort-medicare">Aggregated CHD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-cbv-cohort-medicare">Aggregated CBV cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-adrd-cohort-medicare">Aggregated ADRD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-pd-cohort-medicare">Aggregated PD cohort Medicare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daily-county-level-heatwave-associated-hospitalizations">Daily County Level Heatwave Associated Hospitalizations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hospitalizations-for-kidney-disease-and-comorbidities">Hospitalizations for kidney disease and comorbidities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ihd-medicare-hospitalizations-2005">IHD medicare hospitalizations (2005)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daily-florida-hospitalization-counts-by-zip">Daily Florida Hospitalization Counts by Zip</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coal-pm2-5-source-impacts">Coal PM2.5 Source Impacts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aggregated-2000-2016-medicare-mortality-data-with-pm2-5-exposure-by-zip-code">Aggregated 2000-2016 Medicare Mortality Data with PM2.5 Exposure by ZIP code</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Climate CAFE
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
