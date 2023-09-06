@@ -8,7 +8,7 @@ GitHub is a powerful platform for version control and collaborative development.
 2. [Cloning a Repository](#cloning-a-repository)
 3. [Pushing Code to a Repository](#pushing-code-to-a-repository)
 
----
+------
 
 ### 1. Creating a New Repository
 
