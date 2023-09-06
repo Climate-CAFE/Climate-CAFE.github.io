@@ -1,0 +1,17 @@
+# Table of contents
+
+format: jb-book
+root: intro 
+parts:
+  - caption: SOP
+    chapters:
+    - file: motivation
+    - file: external
+  - caption: GitHub
+    chapters:
+    - file: github
+    - file: template
+  - caption: Dataverse
+    chapters:
+    - file: tutorial
+    - file: examples
