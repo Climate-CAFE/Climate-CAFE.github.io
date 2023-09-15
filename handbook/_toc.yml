@@ -6,6 +6,7 @@ parts:
   - caption: SOP
     chapters:
     - file: motivation
+    - file: data_management
     - file: external
   - caption: GitHub
     chapters:
