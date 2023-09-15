@@ -21,7 +21,7 @@ If you don't have a GitHub account, go to [GitHub's website](https://github.com/
 1. Click on the "+" sign in the upper right corner of the GitHub homepage.
 2. Select "New Repository" from the dropdown menu.
 
-![Create Repository](https://user-images.githubusercontent.com/24832920/134765259-ff3b70f9-58ea-4a27-b161-ee2f60aa8f3c.png)
+![Create Repository](./imgs/github1.png)
 
 #### Step 3: Fill in Repository Details
 
@@ -29,13 +29,13 @@ If you don't have a GitHub account, go to [GitHub's website](https://github.com/
 - **Description**: Add a brief description of your project (optional).
 - **Visibility**: Choose between public (visible to everyone) or private (only visible to collaborators).
 
-![Repository Details](https://user-images.githubusercontent.com/24832920/134765536-ccab10e2-3e04-4d47-8d38-0f8a861c30b3.png)
+![Repository Details](./imgs/github2.png)
 
 #### Step 4: Initialize with a README
 
 - Select the "Initialize this repository with a README" option. This will create an initial README file for your repository.
 
-![Initialize README](https://user-images.githubusercontent.com/24832920/134765614-97a4a40c-18d4-4e7b-aa93-35c9569f93d9.png)
+![Initialize README](./imgs/github3.png)
 
 #### Step 5: Create Repository
 
@@ -54,7 +54,7 @@ You can clone both your own repositories or those shared by others.
 1. Open the repository you want to clone.
 2. Click the "Code" button.
 
-![Clone Repository](https://user-images.githubusercontent.com/24832920/134765762-e26d918b-6649-4ae5-85cf-d79a9a918580.png)
+![Clone Repository](./imgs/github4.png)
 
 3. Copy the repository URL.
 
