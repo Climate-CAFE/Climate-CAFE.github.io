@@ -10,8 +10,6 @@ parts:
     chapters:
     - file: github
     - file: template
-  - caption: SOP
+  - caption: Additional Resources
     chapters:
-    - file: motivation
     - file: data_management
-    - file: external
