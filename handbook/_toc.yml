@@ -4,6 +4,7 @@ format: jb-book
 root: intro 
 parts:
   - caption: CAFE Dataverse Collection 
+    - file: tutoorial
     - file: examples
   - caption: CAGE GitHub Organization
     chapters:
