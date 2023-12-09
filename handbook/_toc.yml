@@ -3,12 +3,16 @@
 format: jb-book
 root: intro 
 parts:
-  - caption: CAFE Dataverse Collection 
+  - caption: CAFÉ Dataverse Collection 
     chapters:
+    - url: https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE
+      title: Climate-Health CAFÉ Dataverse collection 
     - file: tutorial
     - file: examples
-  - caption: CAFE GitHub Organization
+  - caption: CAFÉ GitHub Organization
     chapters:
+    - url: https://github.com/Climate-CAFE/
+      title: Climate CAFÉ GitHub Organization 
     - file: github
     - file: template
   - caption: Additional Resources
