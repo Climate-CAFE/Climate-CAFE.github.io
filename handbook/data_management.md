@@ -1,4 +1,4 @@
-# Data Management and Sharing Plan
+# Data Management and Sharing Plan Example
 
 ## Data Type
 
@@ -37,7 +37,7 @@ Highly sensitive human subjects data, such as CMS claims data, cannot be shared 
 
 The following individuals are responsible for overseeing data management, processing, and dissemination activities, as well as updating and revising the Data Management and Sharing Plan when necessary:
 
-- Danielle Braun, Principal Scientist, Harvard T.H. Chan School of Public Health, ORCID: 0000-0002-5177-8598, Email: dbraun@hsph.harvard.edu
+- Name of individual
 
 ## Planned Research Outputs
 
