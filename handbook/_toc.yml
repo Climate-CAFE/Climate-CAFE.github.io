@@ -6,7 +6,7 @@ parts:
   - caption: CAFÉ Dataverse Collection 
     chapters:
     - url: https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE
-      title: Climate-Health CAFÉ Dataverse collection 
+      title: Climate-Health CAFÉ Dataverse Collection 
     - file: tutorial
     - file: examples
   - caption: CAFÉ GitHub Organization
