@@ -13,7 +13,7 @@ Raw data will undergo cleaning, interpolation, and harmonization. Various data f
 
 ### Human Subjects
 
-This project includes human subject data collected as secondary data from X [RESEARCHER TO ADD DETAILS]
+This project includes human subject data collected as secondary data from X (RESEARCHER TO ADD DETAILS)
 
 All final data products will be shared and preserved in an analysis-ready format, allowing for future studies. Metadata, documentation, and standard operating procedures (SOP) for data processing will be shared with each dataset to facilitate interpretation. Harvard Dataverse supports widely used metadata schemas, ensuring compliance with the latest research dissemination standards, including FAIR principles.
 
@@ -37,7 +37,7 @@ Highly sensitive human subjects data cannot be shared due to contractual obligat
 
 The following individuals are responsible for overseeing data management, processing, and dissemination activities, as well as updating and revising the Data Management and Sharing Plan when necessary:
 
-- Name of individual [RESEARCHER TO ADD DETAILS]
+- Name of individual (RESEARCHER TO ADD DETAILS)
 
 ## Planned Research Outputs
 
