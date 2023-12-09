@@ -3,16 +3,16 @@
 format: jb-book
 root: intro 
 parts:
+  - caption: Dataverse
+    chapters:
+    - file: tutorial
+    - file: examples
+  - caption: GitHub
+    chapters:
+    - file: github
+    - file: template
   - caption: SOP
     chapters:
     - file: motivation
     - file: data_management
     - file: external
-  - caption: GitHub
-    chapters:
-    - file: github
-    - file: template
-  - caption: Dataverse
-    chapters:
-    - file: tutorial
-    - file: examples
