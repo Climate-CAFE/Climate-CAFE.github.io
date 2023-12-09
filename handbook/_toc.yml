@@ -7,7 +7,7 @@ parts:
     chapters:
     - file: tutoorial
     - file: examples
-  - caption: CAGE GitHub Organization
+  - caption: CAFE GitHub Organization
     chapters:
     - file: github
     - file: template
