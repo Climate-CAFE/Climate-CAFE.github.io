@@ -1,4 +1,4 @@
-# Welcome to the Climate CAFE Data Management Page 
+# Welcome to the Climate CAFÉ Data Management Page 
 
 The BUSPH-HSPH Climate Change and Health Research Coordinating Center ([CAFÉ](https://climatehealthcafe.org/)) aims to build a Community of Practice by managing and supporting climate change and health research and capacity building efforts.
 
