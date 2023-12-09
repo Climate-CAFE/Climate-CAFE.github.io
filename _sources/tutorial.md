@@ -1,4 +1,4 @@
-# Uploading Data to Dataverse
+# Contributing to Climate-Health CAFÉ Dataverse Collection
 
 This tutorial provides step-by-step instructions on how to upload data to [Dataverse](https://dataverse.harvard.edu/) and select the "Climate CAFE" organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 

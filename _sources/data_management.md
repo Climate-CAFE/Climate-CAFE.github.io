@@ -1,4 +1,4 @@
-# Data Management and Sharing Plan Example
+# Example of NIH Data Management and Sharing Plan leveraging the Climate-Health CAFÉ Dataverse Collection
 
 ## Data Type
 
@@ -13,7 +13,7 @@ Raw data will undergo cleaning, interpolation, and harmonization. Various data f
 
 ### Human Subjects
 
-This project includes human subject data collected as secondary data from X. It comprises nationally representative data collected over a long time period on Medicare beneficiaries (2000-2019), totaling approximately 45 million individuals per year. This data is governed by an existing Data Use Agreement (DUA) with CMS and the Harvard T.H. Chan School of Public Health (HSPH) Institutional Review Boards (IRB). Patient health information will be protected according to the existing DUA with CMS, ensuring data security within the secure cluster, and adherence to CMS's cell suppression policy.
+This project includes human subject data collected as secondary data from X (RESEARCHER TO ADD DETAILS)
 
 All final data products will be shared and preserved in an analysis-ready format, allowing for future studies. Metadata, documentation, and standard operating procedures (SOP) for data processing will be shared with each dataset to facilitate interpretation. Harvard Dataverse supports widely used metadata schemas, ensuring compliance with the latest research dissemination standards, including FAIR principles.
 
@@ -31,17 +31,17 @@ All data products will be documented and disseminated through the Harvard Datave
 
 ## Access, Distribution, or Reuse Considerations
 
-Highly sensitive human subjects data, such as CMS claims data, cannot be shared due to contractual obligations and IRB requirements. To mitigate this, synthetic health data files will be used when possible, and code for processing these data will be publicly available on GitHub. Sensitive data will only be shared if permitted by the DUA and IRB.
+Highly sensitive human subjects data cannot be shared due to contractual obligations and IRB requirements. To mitigate this, synthetic health data files will be used when possible, and code for processing these data will be publicly available on GitHub. Sensitive data will only be shared if permitted by the DUA and IRB.
 
 ## Oversight of Data Management and Sharing
 
 The following individuals are responsible for overseeing data management, processing, and dissemination activities, as well as updating and revising the Data Management and Sharing Plan when necessary:
 
-- Name of individual
+- Name of individual (RESEARCHER TO ADD DETAILS)
 
 ## Planned Research Outputs
 
 Planned research outputs include:
 
 1. Research data sets deposited into the Harvard Dataverse, publicly available with metadata and documentation, accessible through the Harvard Dataverse Climate CAFE collection.
-2. Software workflow tools provided as free and open-source resources on GitHub within the Climate CAFE collection, ensuring easy accessibility and usability.
+2. Software workflow tools deposited as free and open-source resources on GitHub within the Climate CAFE collection, ensuring easy accessibility and usability.
