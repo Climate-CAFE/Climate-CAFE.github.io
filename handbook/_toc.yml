@@ -11,8 +11,7 @@ parts:
     - file: examples
   - caption: CAFÉ GitHub Organization
     chapters:
-    - url: https://github.com/Climate-CAFE/
-      title: Climate CAFÉ GitHub Organization 
+    - file: cafe_github_org
     - file: github
     - file: template
   - caption: Additional Resources
