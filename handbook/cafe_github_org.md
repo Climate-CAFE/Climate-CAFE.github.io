@@ -17,8 +17,8 @@ Many of these materials are still under active development, so please check back
 | Title | Description | Repository Link |
 | --- | --- | --- |
 | **Population Weighting Raster Data** | Using the gridded meteorological dataset PRISM as an example, this tutorial demonstrates how to aggregate raster data to administrative units (e.g., counties) with population weights. | https://github.com/Climate-CAFE/population_weighting_raster_data |
-<!-- | **Basic Data Join Tutorial** | ... | https://github.com/Climate-CAFE/join_tutorial_basic |
-| **Census Tutorial** | ... | https://github.com/Climate-CAFE/census_tutorial | -->
+| **Joining Tabular & Spatial Data** | This repository provides tutorial scripts in R and Python for spatializing and mapping tabular temperature data at the county level. | https://github.com/Climate-CAFE/tabular_spatial_data_join |
+<!-- | **Census Tutorial** | ... | https://github.com/Climate-CAFE/census_tutorial | -->
 
 ### Under Development
 
