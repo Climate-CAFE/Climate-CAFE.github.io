@@ -18,7 +18,7 @@ Many of these materials are still under active development, so please check back
 | --- | --- | --- |
 | **Population Weighting Raster Data** | Using the gridded meteorological dataset PRISM as an example, this tutorial demonstrates how to aggregate raster data to administrative units (e.g., counties) with population weights. | https://github.com/Climate-CAFE/population_weighting_raster_data |
 | **Joining Tabular & Spatial Data** | This repository provides tutorial scripts in R and Python for spatializing and mapping tabular temperature data at the county level. | https://github.com/Climate-CAFE/tabular_spatial_data_join |
-| **Census Data Variable Extraction** | This repository provides introductory materials for working with census data, including an overview guide and python scripts for extracting variables to analyze. | https://github.com/Climate-CAFE/census_tutorial |
+| **US Census yearly time series tutorial** | A succinct tutorial for generating time series of socio-economic variables from the US Census Bureau using its API. | https://github.com/Climate-CAFE/census_tutorial |
 
 ### Under Development
 
