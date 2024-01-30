@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to the Climate CAFÉ Data Management Page &#8212; Climate CAFE SOP</title>
+    <title>Climate CAFÉ Code-sharing Walkthrough &#8212; Climate CAFE SOP</title>
   
   
   
@@ -62,10 +62,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'code_sharing_workflow';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Contributing to the Climate-Health CAFÉ Dataverse Collection" href="tutorial.html" />
+    <link rel="next" title="Getting Started with GitHub" href="github_coming_soon.html" />
+    <link rel="prev" title="Climate CAFÉ GitHub Organization" href="cafe_github_org.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -141,7 +142,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -161,8 +162,8 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     Welcome to the Climate CAFÉ Data Management Page
                 </a>
             </li>
@@ -174,9 +175,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Example Datasets in the Climate-Health CAFÉ Dataverse Collection</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ GitHub Organization</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cafe_github_org.html">Climate CAFÉ GitHub Organization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="code_sharing_workflow.html">Climate CAFÉ Code-sharing Walkthrough</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Climate CAFÉ Code-sharing Walkthrough</a></li>
 <li class="toctree-l1"><a class="reference internal" href="github_coming_soon.html">Getting Started with GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Reproducible Data Creation Pipeline</a></li>
 </ul>
@@ -254,7 +255,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/Climate-CAFE/SOP_documentation/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/Climate-CAFE/SOP_documentation/issues/new?title=Issue%20on%20page%20%2Fcode_sharing_workflow.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +285,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/code_sharing_workflow.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +369,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to the Climate CAFÉ Data Management Page</h1>
+    <h1>Climate CAFÉ Code-sharing Walkthrough</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,9 +379,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-content">Table of content</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-dataverse-only">Option 1: Dataverse Only</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-personal-github-linked-to-dataverse-recommended">Option 2: Personal GitHub, Linked to Dataverse (<em>recommended</em>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-3-personal-github-linked-to-dataverse-dm-website">Option 3: Personal GitHub, Linked to Dataverse &amp; DM Website</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-4-climate-cafe-organizational-github-requires-ongoing-collaboration">Option 4: Climate CAFÉ Organizational GitHub (requires ongoing collaboration)</a></li>
 </ul>
             </nav>
         </div>
@@ -392,39 +394,29 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-the-climate-cafe-data-management-page">
-<h1>Welcome to the Climate CAFÉ Data Management Page<a class="headerlink" href="#welcome-to-the-climate-cafe-data-management-page" title="Permalink to this heading">#</a></h1>
-<p>The BUSPH-HSPH Climate Change and Health Research Coordinating Center (<a class="reference external" href="https://climatehealthcafe.org/">CAFÉ</a>) aims to build a Community of Practice by managing and supporting climate change and health research and capacity building efforts.</p>
-<p>The CAFÉ data management objective is to aid climate and health community of practice by identifying climate and health research data needs, defining common data elements, developing and promoting data science and software tools for processing data, and providing data management and dissemination guidance.</p>
-<p>CAFÉ Climate Health Data Sharing</p>
-<p>Harvard Dataverse is an open source generalist data repository where we are amassing a collection of commonly-used climate and health data and linkages, including spatial data. Following FAIR principles, we strongly encourage the community of practice to help expand the Climate-Health CAFÉ Dataverse collection by contributing data for sharing and reuse.</p>
-<p>Climate &amp; Health Tutorials and Code Sharing</p>
-<p>We have established a community GitHub organization to share code, examples, and tutorials on working with common data formats and sources. We are assembling a collection of standard operating procedures (SOPs) for data processing, integration, harmonization, and analysis with code and tutorials in order to facilitate reproducibility and reusability for the climate and health Community of Practice. We encourage community members to contribute, share, and reuse code and software within the Climate-CAFÉ GitHub organization. Code and tutorials will include tasks such as spatial aggregations, data harmonization, and analysis across languages including R and Python and platforms such as ArcGIS.</p>
-<section id="table-of-content">
-<h2>Table of content<a class="headerlink" href="#table-of-content" title="Permalink to this heading">#</a></h2>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ Dataverse Collection</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference external" href="https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE">Climate-Health CAFÉ Dataverse Collection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Contributing to the Climate-Health CAFÉ Dataverse Collection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Example Datasets in the Climate-Health CAFÉ Dataverse Collection</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ GitHub Organization</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="cafe_github_org.html">Climate CAFÉ GitHub Organization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="code_sharing_workflow.html">Climate CAFÉ Code-sharing Walkthrough</a></li>
-<li class="toctree-l1"><a class="reference internal" href="github_coming_soon.html">Getting Started with GitHub</a></li>
-<li class="toctree-l1"><a class="reference internal" href="template.html">Reproducible Data Creation Pipeline</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Additional Resources</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="data_management.html">Example of NIH Data Management and Sharing Plan leveraging the Climate-Health CAFÉ Dataverse Collection</a></li>
-</ul>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="climate-cafe-code-sharing-walkthrough">
+<h1>Climate CAFÉ Code-sharing Walkthrough<a class="headerlink" href="#climate-cafe-code-sharing-walkthrough" title="Permalink to this heading">#</a></h1>
+<p><strong><em>“I am uploading a dataset to Dataverse and would like to share the code I used to generate that dataset. How do I share my code through CAFÉ?”</em></strong></p>
+<section id="option-1-dataverse-only">
+<h2>Option 1: Dataverse Only<a class="headerlink" href="#option-1-dataverse-only" title="Permalink to this heading">#</a></h2>
+<p>If the code you want to share is relevant only for the specific dataset you are uploading to dataverse, <em>and</em> you are not yet comfortable using GitHub and the <code class="docutils literal notranslate"><span class="pre">git</span></code> repository infrastructure, you can simply share your code directly within Dataverse. While we do recommend the use of GitHub for open code sharing, we do not want researchers’ comfort level with GitHub to be a barrier code sharing.</p>
+<p>To share code directly within Dataverse, simply include your code files alongside the data files when adding your new Dataverse entry (see <a class="reference external" href="https://climate-cafe.github.io/tutorial.html">https://climate-cafe.github.io/tutorial.html</a>).</p>
+</section>
+<section id="option-2-personal-github-linked-to-dataverse-recommended">
+<h2>Option 2: Personal GitHub, Linked to Dataverse (<em>recommended</em>)<a class="headerlink" href="#option-2-personal-github-linked-to-dataverse-recommended" title="Permalink to this heading">#</a></h2>
+<p>If you have your own GitHub account (either a personal or organizational account), you can use GitHub repositories to share your code publicly, and then simply include URL links to connect your GitHub repository and the corresponding Dataverse entry. (Additional tutorials for using GitHub are <a class="reference external" href="https://climate-cafe.github.io/github.html">coming soon</a>!)</p>
+<p>We recommend this method because GitHub offers useful tools for other researchers who want to reproduce or adapt your code in a transparent way. In particular, code developed using GitHub has useful version control documentation built in, and can automatically track the contributions of different team members collaborating on the same code. Once code is shared publicly on GitHub, other users can create “forks” of your repository that enable them to work with your code for their own project, while always showing that the workflow traces back to you, the original author of the code.</p>
+<p>If you are sharing your code through a GitHub repository, simply include the URL for the GitHub repository in the description of your corresponding Dataverse entry. For an example, see the metadata section for our example <a class="reference external" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2NT5CV">PM2.5 Components Dataset</a> on Dataverse, which links to the following reproducible GitHub repository: <a class="github reference external" href="https://github.com/NSAPH-Data-Processing/pm25_components_randall_martin">NSAPH-Data-Processing/pm25_components_randall_martin</a>.</p>
+</section>
+<section id="option-3-personal-github-linked-to-dataverse-dm-website">
+<h2>Option 3: Personal GitHub, Linked to Dataverse &amp; DM Website<a class="headerlink" href="#option-3-personal-github-linked-to-dataverse-dm-website" title="Permalink to this heading">#</a></h2>
+<p>In some cases, your analysis code may be relevant for more than just explaining how your dataset was generated. For example, it may be that your analysis workflow offers a useful demonstration of a particular method that you expect others to find useful, beyond simply reproducing your code to reconstruct the dataset you are sharing to Dataverse.</p>
+<p>If you anticipate that your shared code could be useful as a walkthrough, or even a kind of tutorial, we can share the link to your repository to our Climate CAFÉ Github Organization <a class="reference external" href="https://climate-cafe.github.io/cafe_github_org.html">landing page</a>. On this page you will find links to the current tutorials and code walkthroughs that we have developed for researchers to use as resources. Some of those tutorials are associated with particular datasets, but the analyses they demonstrate are intended to stand on their own as general examples.</p>
+<p>If you think your code could also be useful in this way, contact us about incorporating a link to your code repository on our landing page. Note that your code <em>must</em> be shared using a GitHub repository to use this option, and you should still plan to link between your GitHub repository and the corresponding Dataverse entry directly as well.</p>
+</section>
+<section id="option-4-climate-cafe-organizational-github-requires-ongoing-collaboration">
+<h2>Option 4: Climate CAFÉ Organizational GitHub (requires ongoing collaboration)<a class="headerlink" href="#option-4-climate-cafe-organizational-github-requires-ongoing-collaboration" title="Permalink to this heading">#</a></h2>
+<p>Finally, if your code is part of a project or demonstration that extends beyond your personal or organizational work, and you would like for it to be published directly under the Climate CAFÉ organizational title, we can help you share your code through the Climate CAFÉ Organizational GitHub. This option will require a collaborative worfklow between you and the CAFÉ Data Management team, including adding you as a contributor to our GitHub organization and managing user permissions. As such, this option is most suitable for collaborators who maintain an active, ongoing role in the Climate CAFÉ’s Community of Practice.</p>
 </section>
 </section>
 
@@ -458,12 +450,21 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="cafe_github_org.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Climate CAFÉ GitHub Organization</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="tutorial.html"
+       href="github_coming_soon.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Contributing to the Climate-Health CAFÉ Dataverse Collection</p>
+        <p class="prev-next-title">Getting Started with GitHub</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -482,9 +483,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-content">Table of content</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-dataverse-only">Option 1: Dataverse Only</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-personal-github-linked-to-dataverse-recommended">Option 2: Personal GitHub, Linked to Dataverse (<em>recommended</em>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-3-personal-github-linked-to-dataverse-dm-website">Option 3: Personal GitHub, Linked to Dataverse &amp; DM Website</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-4-climate-cafe-organizational-github-requires-ongoing-collaboration">Option 4: Climate CAFÉ Organizational GitHub (requires ongoing collaboration)</a></li>
 </ul>
   </nav></div>
 
