@@ -1,9 +1,9 @@
-# SOP_documentation
-CAFE Public Data Standard Operating Procedure
+# Climate CAFE GitHub Pages Website
+Contains the CAFE Public Data Standard Operating Procedure for Data Management functions such as Harvard Dataverse interfacing and GitHub integration.
 
-The rendered handbook is located at [https://climate-cafe.github.io/SOP_documentation/](https://climate-cafe.github.io/SOP_documentation/).
+The rendered website is located at [https://climate-cafe.github.io/](https://climate-cafe.github.io/).
 
-## How to contribute to this SOP handbook?
+## How to contribute to this site?
 
 If you have read/write access to this page, you can directly open a new feature and add your changes. However, we strongly suggest opening a PR and letting others review your code before merging it into the final version. If you do not have access to this page, please fork the repo and submit a PR.
 
@@ -23,7 +23,7 @@ For more help on using JupyterBook for documentation, refer to the [JupyterBook 
 Run the following commands in the terminal:
 
 ```bash
-git clone https://github.com/Climate-CAFE/SOP_documentation.git
+git clone https://github.com/Climate-CAFE/Climate-CAFE.github.io.git
 cd SOP_documentation
 mkdir .env
 python3 -m venv .env
