@@ -15,7 +15,7 @@ parts:
     - file: code_sharing_workflow
     - file: github_coming_soon # note: change this to "github" when github.md tutorial page is finished
     - file: template
-  - caption: Additional Resources
+  - caption: NIH Data Management Plan Guidelines 
     chapters:
     - file: data_management
     - url: https://support.dataverse.harvard.edu/harvard-dataverse-nih-dmp-guidance
