@@ -1,6 +1,6 @@
 # Climate CAFÉ Code-sharing Walkthrough
 
-_"I am uploading a dataset to Dataverse and would like to share the code I used to generate that dataset. How do I share my code through CAFÉ?"_
+**_"I am uploading a dataset to Dataverse and would like to share the code I used to generate that dataset. How do I share my code through CAFÉ?"_**
 
 ## Option 1: Dataverse Only
 If the code you want to share is relevant only for the specific dataset you are uploading to dataverse, *and* you are not yet comfortable using GitHub and the `git` repository infrastructure, you can simply share your code directly within Dataverse. While we do recommend the use of GitHub for open code sharing, we do not want researchers' comfort level with GitHub to be a barrier code sharing.
