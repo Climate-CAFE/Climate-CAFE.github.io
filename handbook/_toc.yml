@@ -15,8 +15,9 @@ parts:
     - file: code_sharing_workflow
     - file: github_coming_soon # note: change this to "github" when github.md tutorial page is finished
     - file: template
-  - caption: NIH Data Management Plan Guidelines 
+  - caption: NIH Data Management and Sharing Policy Guidelines 
     chapters:
-    - file: data_management
+    - url: https://docs.google.com/document/d/1LiW8IWLY3YZVC5OkbtU42ATFClFBx8UuK734Kot0jkE/edit?usp=sharing
+      title: NIH DMSP CAFÉ Example
     - url: https://support.dataverse.harvard.edu/harvard-dataverse-nih-dmp-guidance
       title: Harvard Dataverse NIH-DMP Guidance
