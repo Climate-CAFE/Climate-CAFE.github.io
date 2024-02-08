@@ -1,6 +1,6 @@
 # Contributing to the Climate-Health CAFÉ Dataverse Collection
 
-This tutorial provides step-by-step instructions on how to upload data to [Dataverse](https://dataverse.harvard.edu/) and select the "Climate CAFE" organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
+This tutorial provides step-by-step instructions on how to upload data to [Dataverse](https://dataverse.harvard.edu/) and select the "Climate Change and Health Research Coordinating Center (CAFE) Collection" organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 
 To ensure the reproducibility of your data, it's essential to include a link to your GitHub repository in the dataset's description. This link should lead to the pipeline that outlines the process for creating the data. 
 
@@ -19,62 +19,30 @@ Before you begin, ensure you have the necessary data files, github links, and in
 2. **Select "Add Data" in Top Right Corner**
 
    - From your Dataverse dashboard, click on "Add Data" on the top right side.
-   - Under "Host Dataverse," find and select "Climate CAFE" as the organization where you want to upload your data.
+   - Under "Host Dataverse," find and select "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" as the organization where you want to upload your data.
 
-43. **Fill in Dataset Information**
+3. **Fill in Dataset Information**
+Please follow the prompts provided in the Metadata checklist to provide the descriptors required to make your dataset available through Dataverse. Some context-specific instructions have been added to the upload form, and you can additionally find field-specific explanations for each field by hovering your cursor over the question-mark icon next to the entry.
+For additional clarity, we have highlighted directions for a few key fields that may be unfamiliar to users:
+   -   **Keywords and Controlled Vocabulary**: Add keywords to aid in discoverability. Controlled vocabulary is used to ensure keywords are consistent across different data contributors. NIEHS has established a glossary of keywords that CAFE data contributors are expected to use. Select keywords relevant to your data from the [Climate Change and Human Health Glossary](https://tools.niehs.nih.gov/cchhglossary/). The Controlled Vocabulary Name can be left blank in the metadata, but the glossary link should be included in the URL section. This URL should appear as a default. If you would like to include keywords from another glossary, follow the same procedure using the + button to add new keywords and including the relevant URL for each.
+   -   **Geospatial Metadata**. Provide information about the area(s) that your data covers as directed by the checklist prompts.
+   -   **Computational Workflow**: Open source processing is a priority for reproducibility. Refer to the [Code Sharing Walkthrough page](https://climate-cafe.github.io/code_sharing_workflow.html) for details on the expectations for processing pipelines. Include a link to your processing pipeline (ie:GitHub) if applicable.
+   -   **Metadata About Data Sources**: Include all available information about any raw data source from which the dataset was derived (Select *Yes* from the Derived from Another Dataset option before completing this section).
+   -   **Metadata About Geospatial Files**: These details are relevant strictly for spatial file formats. 
 
-   - **Title:** Provide a descriptive title for your dataset.
-   - **Author Name:** Enter the name of the author, e.g., "Irene, Kezia."
-   - **Affiliation:** Specify the author's affiliation, e.g., "Harvard University."
+4. **Upload Data Files**
 
-   **Identifier Type:** Leave this as "Select..."
-
-   **Identifier:** Leave this as "Select..."
-
-   - **Point of Contact Name:** Enter the name of the point of contact
-   - **Affiliation:** Specify the point of contact's affiliation 
-   - **E-mail:** Enter the contact email address 
-
-   - **Description:** Provide a description of your dataset and include a link to your GitHub repository. This link should lead to the pipeline that outlines the process for creating the data. Ensure to specify that the GitHub link is for reproducibility purposes.
-   
-   Example:
-   "This dataset contains climate and health research data collected for the Climate CAFE project. For details on how this data was created and processed, please refer to our [GitHub Repository](https://github.com/your-username/your-repo) for the reproducibility pipeline."
-
-
-   - **Date:** Enter the date in the format YYYY-MM-DD.
-
-   - **Subject:** Add relevant subjects.
-
-   - **Keyword Term:** Add keywords to aid in discoverability.
-
-   **Controlled Vocabulary Name:** Leave this as "Select..."
-
-   **Controlled Vocabulary URL:** Leave this as "https://"
-
-   - **Related Publication Citation:** If applicable, provide information about any related publications.
-
-   **Identifier Type:** Leave this as "Select..."
-
-   **Identifier:** Leave this as "URL https://"
-
-   - **Notes:** Add any additional notes or information about your dataset.
-
-   - **Depositor:** Enter the name of the depositor, e.g., "Irene, Kezia."
-   - **Deposit Date:** Enter the deposit date in the format YYYY-MM-DD.
-
-5. **Upload Data Files**
-
-   - Under the "Files" section, you can upload your data files.
-   - Click the "Select Files to Add" button to choose files from your local device or drag and drop files into the upload widget.
+   - The last component of the dataset submission involves uploading your data and code (if not using online computational workflow). You can select or upload files, specify their naming, and specify a folder infrastructure if needed. 
+   - Click the "Select Files to Add" button to choose files from your local device or drag and drop files into the upload widget. In addition to the metadata specified in this form, a .csv data dictionary describing all variables should be uploaded as a file with your submission.
 
    - **Note:** Dataverse supports a wide range of file types. Ensure your files are within the specified size limits, and tabular files have their own limitations for ingestion.
 
 6. **Finalize and Edit Metadata**
 
-   - After adding the dataset and files, you can click the "Edit Dataset" button to review and add more metadata if needed.
-
+   - Select *Save Dataset* when all fields are filled and you have added the files you would like to submit. After you have saved your dataset, you can edit the metadata to add additional information by selecting *Edit Dataset*
+     
 7. **Submit**
 
-   - Once you're satisfied with the dataset and metadata, click the "Submit Dataset" button.
+   - Once you're satisfied with the dataset and metadata, click the "*Submit for Review*" button.
 
-Congratulations! You've successfully uploaded your data to Dataverse under the "Climate CAFE" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the Dataverse platform.
+Congratulations! You've successfully uploaded your data to Dataverse under the "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the Dataverse platform.
