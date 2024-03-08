@@ -14,6 +14,8 @@ We recommend this method because GitHub offers useful tools for other researcher
 
 If you are sharing your code through a GitHub repository, simply include the URL for the GitHub repository in the description of your corresponding Dataverse entry. For an example, see the metadata section for our example [PM2.5 Components Dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2NT5CV) on Dataverse, which links to the corresponding reproducible GitHub repository: https://github.com/NSAPH-Data-Processing/pm25_components_randall_martin
 
+Additionally, please include the topic tag `climate-cafe` in your GitHub repository description. This allows anyone to find your repository by searching GitHub for the `climate-cafe` topic keyword. You can easily view all the repositories tagged with `climate-cafe` at https://github.com/topics/climate-cafe. For instructions on how to add a topic tag to a GitHub repository, [click here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+
 ## Option 3: Personal GitHub, Linked to Dataverse & DM Website
 In some cases, your analysis code may be relevant for more than just explaining and reproducing the pipeline for generating your specific dataset. For example, your analysis workflow might offer a useful demonstration of a particular method that other researchers could generalize for their own purposes.
 
