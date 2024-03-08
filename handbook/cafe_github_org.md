@@ -6,6 +6,8 @@ CAFÉ RCC has a established a [community GitHub organization](https://github.com
 
 The CAFÉ Data Management Function team has begun to develop and share code and tutorials that cover tasks such as spatial aggregations, data harmonization, and analysis across languages including R and Python. As the CAFÉ community grows to include more of the climate and health Community of Practice, we will continue to refine and expand these materials to showcase additional analyses platforms (e.g., ArcGIS). We also hope that community members joining the CAFÉ initiative will contribute, share, and reuse code and software within the CAFÉ GitHub.
 
+All code repositories on GitHub whose content is intended to be shared with the CAFÉ research community should be tagged with the [GitHub topic tag](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) `climate-cafe`. This enables anyone in the climate and health community of practice to easily find relevant code repositories simply by searching for the `climate-cafe` term on GitHub, by clicking on the `climate-cafe` topic tag anywhere it appears on GitHub, or by navigating directly to https://github.com/topics/climate-cafe.
+
 ## Current Tutorials and Code Walkthroughs
 
 Our team members have created tutorials and code examples for several key data management procedures and common analysis challenges that climate and health researchers may encounter. These tutorials are intended to provide usable example materials that researchers can download and step through on their own.
