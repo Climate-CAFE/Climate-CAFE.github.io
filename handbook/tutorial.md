@@ -1,5 +1,26 @@
 # Contributing to the Climate-Health CAFÉ Dataverse Collection
 
+## Guidelines for Dataset Contributions
+
+We strongly encourage the community of practice to contribute to the expansion of the CAFE Dataverse Collection. Emphasizing open access and collaborative research, the CAFÉ Collection invites contributions from a diverse array of stakeholders, including government agencies, NGOs, community-based organizations, industry partners, and academics. 
+
+Parameters for what datasets are appropriate and inappropriate for the CAFE Dataverse are described below:
+
+## General Guidance
+
+- Contributions should be relevant to climate and health research.
+- Contributions should not be identical to data stored in other repositories. The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
+- Contributions should be in line with the licensing of raw source data.
+- Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).
+- No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Dataverse. Contributions will be widely accessible to Harvard Dataverse users.
+
+## File Formatting and Size Limitations
+- All file types are supported for upload and download
+- A maximum of 1,000 files are allowed per upload
+- The file upload limit is 300 GB per file
+- Dataverse can ingest data in certain formats as specifically as tabular data, which will allow for exploration and manipulation of the data with external tools. Tabular file ingest is limited to 143.1MB. For more information, see: Dataverse [Tabular Data File Guide](https://guides.dataverse.org/en/6.1/user/dataset-management.html#tabular-data-files) 
+
+# Dataverse Tutorial
 This tutorial provides step-by-step instructions on how to upload data to [Dataverse](https://dataverse.harvard.edu/) and select the "Climate Change and Health Research Coordinating Center (CAFE) Collection" organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 
 To ensure the reproducibility of your data, it's essential to include a link to your GitHub repository in the dataset's description. This link should lead to the pipeline that outlines the process for creating the data. 
@@ -35,7 +56,7 @@ For additional clarity, we have highlighted directions for a few key fields that
    - The last component of the dataset submission involves uploading your data and code (if not using online computational workflow). You can select or upload files, specify their naming, and specify a folder infrastructure if needed. 
    - Click the "Select Files to Add" button to choose files from your local device or drag and drop files into the upload widget. In addition to the metadata specified in this form, a .csv data dictionary describing all variables should be uploaded as a file with your submission.
 
-   - **Note:** Dataverse supports a wide range of file types. Ensure your files are within the specified size limits, and tabular files have their own limitations for ingestion.
+   - **Note:** Dataverse supports a wide range of file types. Ensure your files are within the specified size limits.
 
 6. **Finalize and Edit Metadata**
 
