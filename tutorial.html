@@ -172,6 +172,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference external" href="https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE">Climate-Health CAFÉ Dataverse Collection</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing to the Climate-Health CAFÉ Dataverse Collection</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Example Datasets in the Climate-Health CAFÉ Dataverse Collection</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ GitHub Organization</span></p>
@@ -380,9 +381,19 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Contributing to the Climate-Health CAFÉ Dataverse Collection</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-dataset-contributions">Guidelines for Dataset Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-guidance">General Guidance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-formatting-and-size-limitations">File Formatting and Size Limitations</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dataverse-tutorial">Dataverse Tutorial</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steps">Steps</a></li>
 </ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -395,6 +406,33 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-the-climate-health-cafe-dataverse-collection">
 <h1>Contributing to the Climate-Health CAFÉ Dataverse Collection<a class="headerlink" href="#contributing-to-the-climate-health-cafe-dataverse-collection" title="Permalink to this heading">#</a></h1>
+<section id="guidelines-for-dataset-contributions">
+<h2>Guidelines for Dataset Contributions<a class="headerlink" href="#guidelines-for-dataset-contributions" title="Permalink to this heading">#</a></h2>
+<p>We strongly encourage the community of practice to contribute to the expansion of the CAFE Dataverse Collection. Emphasizing open access and collaborative research, the CAFÉ Collection invites contributions from a diverse array of stakeholders, including government agencies, NGOs, community-based organizations, industry partners, and academics.</p>
+<p>Parameters for what datasets are appropriate and inappropriate for the CAFE Dataverse are described below:</p>
+</section>
+<section id="general-guidance">
+<h2>General Guidance<a class="headerlink" href="#general-guidance" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Contributions should be relevant to climate and health research.</p></li>
+<li><p>Contributions should not be identical to data stored in other repositories. The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.</p></li>
+<li><p>Contributions should be in line with the licensing of raw source data.</p></li>
+<li><p>Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).</p></li>
+<li><p>No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Dataverse. Contributions will be widely accessible to Harvard Dataverse users.</p></li>
+</ul>
+</section>
+<section id="file-formatting-and-size-limitations">
+<h2>File Formatting and Size Limitations<a class="headerlink" href="#file-formatting-and-size-limitations" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>All file types are supported for upload and download</p></li>
+<li><p>A maximum of 1,000 files are allowed per upload</p></li>
+<li><p>The file upload limit is 300 GB per file</p></li>
+<li><p>Dataverse can ingest data in certain formats as specifically as tabular data, which will allow for exploration and manipulation of the data with external tools. Tabular file ingest is limited to 143.1MB. For more information, see: Dataverse <a class="reference external" href="https://guides.dataverse.org/en/6.1/user/dataset-management.html#tabular-data-files">Tabular Data File Guide</a></p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="dataverse-tutorial">
+<h1>Dataverse Tutorial<a class="headerlink" href="#dataverse-tutorial" title="Permalink to this heading">#</a></h1>
 <p>This tutorial provides step-by-step instructions on how to upload data to <a class="reference external" href="https://dataverse.harvard.edu/">Dataverse</a> and select the “Climate Change and Health Research Coordinating Center (CAFE) Collection” organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.</p>
 <p>To ensure the reproducibility of your data, it’s essential to include a link to your GitHub repository in the dataset’s description. This link should lead to the pipeline that outlines the process for creating the data.</p>
 <p><img alt="" src="_images/dataverse.png" /></p>
@@ -431,7 +469,7 @@ For additional clarity, we have highlighted directions for a few key fields that
 <ul class="simple">
 <li><p>The last component of the dataset submission involves uploading your data and code (if not using online computational workflow). You can select or upload files, specify their naming, and specify a folder infrastructure if needed.</p></li>
 <li><p>Click the “Select Files to Add” button to choose files from your local device or drag and drop files into the upload widget. In addition to the metadata specified in this form, a .csv data dictionary describing all variables should be uploaded as a file with your submission.</p></li>
-<li><p><strong>Note:</strong> Dataverse supports a wide range of file types. Ensure your files are within the specified size limits, and tabular files have their own limitations for ingestion.</p></li>
+<li><p><strong>Note:</strong> Dataverse supports a wide range of file types. Ensure your files are within the specified size limits.</p></li>
 </ul>
 </li>
 <li><p><strong>Finalize and Edit Metadata</strong></p>
@@ -512,9 +550,19 @@ For additional clarity, we have highlighted directions for a few key fields that
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Contributing to the Climate-Health CAFÉ Dataverse Collection</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-dataset-contributions">Guidelines for Dataset Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-guidance">General Guidance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-formatting-and-size-limitations">File Formatting and Size Limitations</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#dataverse-tutorial">Dataverse Tutorial</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steps">Steps</a></li>
 </ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
