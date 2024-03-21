@@ -21,9 +21,9 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Data
 - Dataverse can ingest data in certain formats as specifically as tabular data, which will allow for exploration and manipulation of the data with external tools. Tabular file ingest is limited to 143.1MB. For more information, see: Dataverse [Tabular Data File Guide](https://guides.dataverse.org/en/6.1/user/dataset-management.html#tabular-data-files) 
 
 # Dataverse Tutorial
-This tutorial provides step-by-step instructions on how to upload data to the [CAFE Dataverse Collection](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE). Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
+This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE). Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 
-![](./imgs/dataverse.png)
+![](./imgs/cafe_deposit_dv.png)
 
 ## Prerequisites
 
