@@ -21,11 +21,11 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Data
 - Dataverse can ingest data in certain formats as specifically as tabular data, which will allow for exploration and manipulation of the data with external tools. Tabular file ingest is limited to 143.1MB. For more information, see: Dataverse [Tabular Data File Guide](https://guides.dataverse.org/en/6.1/user/dataset-management.html#tabular-data-files) 
 
 # Dataverse Tutorial
-This tutorial provides step-by-step instructions on how to upload data to [Dataverse](https://dataverse.harvard.edu/) and select the "Climate Change and Health Research Coordinating Center (CAFE) Collection" organization as the Host Dataverse. Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
+This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE). Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 
-To ensure the reproducibility of your data, it's essential to include a link to your GitHub repository in the dataset's description. This link should lead to the pipeline that outlines the process for creating the data. 
+Select the image below to view a tutorial video on uploading to the Dataverse CAFE Collection.
 
-![](./imgs/dataverse.png)
+[![](./imgs/cafe_deposit_dv.png)](https://www.youtube.com/watch?v=7NtKGAi-x6g&ab_channel=ClimateHealthCAF%C3%89)
 
 ## Prerequisites
 
@@ -35,12 +35,15 @@ Before you begin, ensure you have the necessary data files, github links, and in
 
 1. **Log In or Create an Account**
 
-   - If you haven't already, visit [Dataverse](https://dataverse.harvard.edu/) and either log in to your existing account or create a new one.
+   - If you haven't already, visit the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) and either log in to your existing account or create a new one.
 
-2. **Select "Add Data" in Top Right Corner**
+2. **Select "Add Data" from the CAFE Dataverse Collection page**
 
-   - From your Dataverse dashboard, click on "Add Data" on the top right side.
-   - Under "Host Dataverse," find and select "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" as the organization where you want to upload your data.
+   - You will add your contribution starting from the CAFE Collection page on Dataverse.
+   - From the main Dataverse landing page, you can find the CAFE Collection by using the Search function at the top of the page.
+   - Once you have arrived to the CAFE Collection, find the "Add Data" button by scrolling down the page. You will find "Add Data" right above the list of all datasets in the Collection.
+   - Select "Add Data" and then "New Dataset" to start your contribution.
+   - Before filling out the required metadata, confirm that you are contributing to the CAFE Collection by ensuring the Host Dataverse is "Climate Change and Health Research Coordinating Center (CAFE) Collection" and the Dataset Template is "CAFE Dataverse Deposit Template"
 
 3. **Fill in Dataset Information**
 Please follow the prompts provided in the Metadata checklist to provide the descriptors required to make your dataset available through Dataverse. Some context-specific instructions have been added to the upload form, and you can additionally find field-specific explanations for each field by hovering your cursor over the question-mark icon next to the entry.
@@ -55,7 +58,6 @@ For additional clarity, we have highlighted directions for a few key fields that
 
    - The last component of the dataset submission involves uploading your data and code (if not using online computational workflow). You can select or upload files, specify their naming, and specify a folder infrastructure if needed. 
    - Click the "Select Files to Add" button to choose files from your local device or drag and drop files into the upload widget. In addition to the metadata specified in this form, a .csv data dictionary describing all variables should be uploaded as a file with your submission.
-
    - **Note:** Dataverse supports a wide range of file types. Ensure your files are within the specified size limits.
 
 6. **Finalize and Edit Metadata**
