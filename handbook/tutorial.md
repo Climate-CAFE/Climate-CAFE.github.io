@@ -23,9 +23,9 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Data
 # Dataverse Tutorial
 This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE). Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
 
-Select the image below to view a tutorial video on uploading to the Dataverse CAFE Collection.
+Click below to view a tutorial video on uploading to the Dataverse CAFE Collection.
 
-[![](./imgs/cafe_deposit_dv.png)](https://www.youtube.com/watch?v=7NtKGAi-x6g&ab_channel=ClimateHealthCAF%C3%89)
+[![](./imgs/click_here_vid.png)](https://www.youtube.com/watch?v=7NtKGAi-x6g&ab_channel=ClimateHealthCAF%C3%89)
 
 ## Prerequisites
 
@@ -44,6 +44,8 @@ Before you begin, ensure you have the necessary data files, github links, and in
    - Once you have arrived to the CAFE Collection, find the "Add Data" button by scrolling down the page. You will find "Add Data" right above the list of all datasets in the Collection.
    - Select "Add Data" and then "New Dataset" to start your contribution.
    - Before filling out the required metadata, confirm that you are contributing to the CAFE Collection by ensuring the Host Dataverse is "Climate Change and Health Research Coordinating Center (CAFE) Collection" and the Dataset Template is "CAFE Dataverse Deposit Template"
+  
+![](./imgs/cafe_deposit_dv.png)
 
 3. **Fill in Dataset Information**
 Please follow the prompts provided in the Metadata checklist to provide the descriptors required to make your dataset available through Dataverse. Some context-specific instructions have been added to the upload form, and you can additionally find field-specific explanations for each field by hovering your cursor over the question-mark icon next to the entry.
