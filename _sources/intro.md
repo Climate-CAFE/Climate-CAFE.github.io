@@ -14,7 +14,7 @@ Climate & Health Tutorials and Code Sharing
 We have established a community GitHub organization to share code, examples, and tutorials on working with common data formats and sources. We are assembling a collection of standard operating procedures (SOPs) for data processing, integration, harmonization, and analysis with code and tutorials in order to facilitate reproducibility and reusability for the climate and health Community of Practice. We encourage community members to contribute, share, and reuse code and software within the Climate-CAFÉ GitHub organization. Code and tutorials will include tasks such as spatial aggregations, data harmonization, and analysis across languages including R and Python and platforms such as ArcGIS. 
  
 
-## Table of content
+## Table of contents
 
 ```{tableofcontents}
 ```
