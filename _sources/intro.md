@@ -11,7 +11,9 @@ Harvard Dataverse is an open source generalist data repository where we are amas
 
 Climate & Health Tutorials and Code Sharing
 
-We have established a community GitHub organization to share code, examples, and tutorials on working with common data formats and sources. We are assembling a collection of standard operating procedures (SOPs) for data processing, integration, harmonization, and analysis with code and tutorials in order to facilitate reproducibility and reusability for the climate and health Community of Practice. We encourage community members to contribute, share, and reuse code and software within the Climate-CAFÉ GitHub organization. Code and tutorials will include tasks such as spatial aggregations, data harmonization, and analysis across languages including R and Python and platforms such as ArcGIS. 
+We have established a community GitHub organization to share code, examples, and tutorials on working with common data formats and sources. We are assembling a collection of standard operating procedures (SOPs) for data processing, integration, harmonization, and analysis with code and tutorials in order to facilitate reproducibility and reusability for the climate and health Community of Practice. We encourage community members to contribute, share, and reuse code and software within the Climate-CAFÉ GitHub organization. Code and tutorials will include tasks such as spatial aggregations, data harmonization, and analysis across languages including R and Python and platforms such as ArcGIS.
+
+The designations employed and the presentation of material on maps or spatial data do not imply the expression of any opinion whatsoever on the part of the CAFE team concerning the legal status of any country, territory, city or area or of its authorities or concerning the delimitation of its frontiers or boundaries.
  
 
 ## Table of contents
