@@ -2,9 +2,9 @@
 
 ## Guidelines for Dataset Contributions
 
-We strongly encourage the community of practice to contribute to the expansion of the CAFE Dataverse Collection. Emphasizing open access and collaborative research, the CAFÉ Collection invites contributions from a diverse array of stakeholders, including government agencies, NGOs, community-based organizations, industry partners, and academics. 
+We strongly encourage the community of practice to contribute to the expansion of the CAFE Dataverse Collection. Emphasizing open access and collaborative research, the CAFE Collection invites contributions from a diverse array of stakeholders, including government agencies, NGOs, community-based organizations, industry partners, and academics. 
 
-Parameters for what datasets are appropriate and inappropriate for the CAFE Dataverse are described below:
+Parameters for what datasets are appropriate and inappropriate for the CAFE Collection are described below:
 
 ## General Guidance
 
@@ -12,7 +12,7 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Data
 - Contributions should not be identical to data stored in other repositories. The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
 - Contributions should be in line with the licensing of raw source data.
 - Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).
-- No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Dataverse. Contributions will be widely accessible to Harvard Dataverse users.
+- No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Collection. Contributions will be widely accessible to Harvard Dataverse users.
 
 ## File Formatting and Size Limitations
 - All file types are supported for upload and download
@@ -20,10 +20,15 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Data
 - The file upload limit is 300 GB per file
 - Dataverse can ingest data in certain formats as specifically as tabular data, which will allow for exploration and manipulation of the data with external tools. Tabular file ingest is limited to 143.1MB. For more information, see: Dataverse [Tabular Data File Guide](https://guides.dataverse.org/en/6.1/user/dataset-management.html#tabular-data-files) 
 
-# Dataverse Tutorial
-This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE). Dataverse is a robust platform for sharing, archiving, and collaborating on research data.
+## Adding to a Sub-Collection
+The CAFE Collection provides infrastructure for organizing entries called sub-collections. A sub-collection is a great way to keep your lab or organization's uploaded datasets together in one place while still being a part of the CAFE Collection. For an example, see the [NSAPH sub-collection](https://dataverse.harvard.edu/dataverse/nsaph).
 
-Click below to view a tutorial video on uploading to the Dataverse CAFE Collection.
+If you would like to have a sub-collection within the CAFE Collection, please submit the [Request Form for CAFÉ Sub-Collection](https://docs.google.com/forms/d/e/1FAIpQLScxyjsfirC_b4WhSweODlk5AVZJGxQklN7oxNtn_j4lybldHA/viewform) with details of your project, department, organization, or publication. Please note that subcollections are meant to organize data from specific contributors and teams, not based on topics and themes. Data users can find data under specific themes and research topics by using the search functions, so long as your contribution has included the relevant keywords, controlled vocabulary, and other relevant metadata. The next section describes these metadata in more depth.
+
+# Harvard Dataverse Repository Tutorial
+This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) within the Harvard Dataverse Repository. 
+
+Click below to view a tutorial video on uploading to the Harvard Dataverse CAFE Collection.
 
 [![](./imgs/click_here_vid.png)](https://www.youtube.com/watch?v=7NtKGAi-x6g&ab_channel=ClimateHealthCAF%C3%89)
 
@@ -70,4 +75,4 @@ For additional clarity, we have highlighted directions for a few key fields that
 
    - Once you're satisfied with the dataset and metadata, click the "*Submit for Review*" button.
 
-Congratulations! You've successfully uploaded your data to Dataverse under the "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the Dataverse platform.
+Congratulations! You've successfully uploaded your data to the Harvard Dataverse Repository under the "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the CAFE Collection.
