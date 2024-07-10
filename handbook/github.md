@@ -122,13 +122,16 @@ Visit your GitHub repository in a web browser to see your changes reflected in t
 
 You can follow the following steps, to obtain a GitHub token:
 
-* Log in to your GitHub account and go to your “Settings” page.
-* Click on “Developer settings” in the left-hand sidebar.
-* Click on “Personal access tokens” and choose “Tokens (classic)”.
-* Click on “Generate new token” then “Generate new token (classic)” .
-* Give your token a description, so you can remember what it is for.
-* Select all the scopes available.
-* Click on “Generate token”.
+1. Log in to your GitHub account and go to your “Settings” page.
+2. Click on “Developer settings” in the left-hand sidebar.
+3. Click on “Personal access tokens” and choose “Tokens (classic)”.
+
+![Github token](./imgs/github5.png)
+
+4. Click on “Generate new token” then “Generate new token (classic)” .
+5. Give your token a description, so you can remember what it is for.
+6. Select all the scopes available.
+7. Click on “Generate token”.
 
 
 ```{note}
