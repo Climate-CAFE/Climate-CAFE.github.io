@@ -1,17 +1,20 @@
 # Getting Started with GitHub
 
-GitHub is a powerful platform for version control and collaborative development. This tutorial will guide you through the process of creating a new repository, cloning an existing repository, and pushing code changes to it.
+GitHub is a user-friendly platform that allows you to easily share your code with others, which is becoming a typical requirement for research publications. Even if you're not interested in the technical aspects of code development, GitHub provides a straightforward way to create repositories where you can store your research scripts. This tutorial will guide you through the basics of setting up a repository on GitHub, uploading your files, and sharing your work with collaborators or the public. 
+
+Following the [Basic GitHub Introduction](basic-github-introduction) section below, you will be able to upload your code without needing to install any software on your machine or use the command line. For those interested in using the command line interface, refer to the [Cloning Repositories and Pushing Code](cloning-repositories-and-pushing-code) section for basic Git commands.
 
 ## Table of Contents
 
-### Basic GitHub Introduction
+**Basic GitHub Introduction**
+
 1. [Sign In or Create an Account](#1-sign-in-or-create-an-account)
 2. [Create a New Repository](#2-create-a-new-repository)
 3. [Create a README](#3-create-a-readme)
 4. [Commit Changes](#4-commit-changes)
 5. [Add Your Code](5-#add-your-code)
 
-### Cloning Repositories and Pushing Code
+**Cloning Repositories and Pushing Code**
 1. [Cloning a Repository](#1-cloning-a-repository)
 2. [Pushing Code to a Repository](2-pushing-code-to-a-repository)
 
@@ -99,11 +102,11 @@ Returning to the repository home page, you will be able to see your README file 
 
 #### Find a Repository to Clone
 
-You can clone both your own repositories or those shared by others.
+Make sure you have `git` installed.
 
 #### Get the Repository URL
 
-1. Open the repository you want to clone.
+1. Open a Github repository url in your browser. You can clone both your own repositories or those shared by others.
 2. Click the "Code" button.
 
 ![Clone Repository](./imgs/github4.png)
@@ -118,7 +121,7 @@ Open your terminal or command prompt and navigate to the directory where you wan
 cd /path/to/your/directory
 ```
 
-Use the `git clone` command followed by the repository URL you copied:
+Once you have `git` installed, use the `git clone` command followed by the repository URL you copied:
 
 ```bash
 git clone https://github.com/username/repository-name.git
