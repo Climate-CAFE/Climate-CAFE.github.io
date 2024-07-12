@@ -65,6 +65,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'github';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reproducible Data Creation Pipeline" href="template.html" />
+    <link rel="prev" title="Climate CAFÉ Code-sharing Walkthrough" href="code_sharing_workflow.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,10 +176,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Example Datasets in the Climate-Health CAFÉ Dataverse Collection</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ GitHub Organization</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cafe_github_org.html">Climate CAFÉ GitHub Organization</a></li>
 <li class="toctree-l1"><a class="reference internal" href="code_sharing_workflow.html">Climate CAFÉ Code-sharing Walkthrough</a></li>
-<li class="toctree-l1"><a class="reference internal" href="github_coming_soon.html">Getting Started with GitHub</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Getting Started with GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Reproducible Data Creation Pipeline</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">NIH Data Management and Sharing Policy Guidelines</span></p>
@@ -379,28 +381,31 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-new-repository">1. Creating a New Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-sign-in-or-create-an-account">Step 1: Sign In or Create an Account</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-create-a-new-repository">Step 2: Create a New Repository</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-fill-in-repository-details">Step 3: Fill in Repository Details</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-initialize-with-a-readme">Step 4: Initialize with a README</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-create-repository">Step 5: Create Repository</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-github-introduction">Basic GitHub Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sign-in-or-create-an-account">1. Sign In or Create an Account</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-repository">2. Create a New Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Create a New Repository</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-in-repository-details">Fill in Repository Details</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-readme">3: Create a README</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-changes">4: Commit Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#add-your-code">5: Add Your Code</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-a-repository">2. Cloning a Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-find-a-repository-to-clone">Step 1: Find a Repository to Clone</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-get-the-repository-url">Step 2: Get the Repository URL</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-clone-the-repository-locally">Step 3: Clone the Repository Locally</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-access-the-cloned-repository">Step 4: Access the Cloned Repository</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-code-to-a-repository">3. Pushing Code to a Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-make-changes">Step 1: Make Changes</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-stage-and-commit-changes">Step 2: Stage and Commit Changes</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-push-changes-to-github">Step 3: Push Changes to GitHub</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-verify-changes-on-github">Step 4: Verify Changes on GitHub</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-obtaining-github-token">Step 5: Obtaining GitHub token</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-repositories-and-pushing-code">Cloning Repositories and Pushing Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-a-repository">1. Cloning a Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-a-repository-to-clone">Find a Repository to Clone</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#get-the-repository-url">Get the Repository URL</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-the-repository-locally">Clone the Repository Locally</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#access-the-cloned-repository">Access the Cloned Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-code-to-a-repository">2. Pushing Code to a Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#make-changes">Make Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-and-commit-changes">Stage and Commit Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#push-changes-to-github">Push Changes to GitHub</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-changes-on-github">Verify Changes on GitHub</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#obtaining-github-token">Obtaining GitHub token</a></li>
 </ul>
 </li>
 </ul>
@@ -418,61 +423,99 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="getting-started-with-github">
 <h1>Getting Started with GitHub<a class="headerlink" href="#getting-started-with-github" title="Permalink to this heading">#</a></h1>
-<p>GitHub is a powerful platform for version control and collaborative development. This tutorial will guide you through the process of creating a new repository, cloning an existing repository, and pushing code changes to it.</p>
+<p>GitHub is a user-friendly platform that allows you to easily share your code with others, which is becoming a typical requirement for research publications. Even if you’re not interested in the technical aspects of code development, GitHub provides a straightforward way to create repositories where you can store your research scripts. This tutorial will guide you through the basics of setting up a repository on GitHub, uploading your files, and sharing your work with collaborators or the public.</p>
+<p>Following the <span class="xref myst">Basic GitHub Introduction</span> section below, you will be able to upload your code without needing to install any software on your machine or use the command line. For those interested in using the command line interface, refer to the <span class="xref myst">Cloning Repositories and Pushing Code</span> section for basic Git commands.</p>
 <section id="table-of-contents">
 <h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">#</a></h2>
+<p><strong>Basic GitHub Introduction</strong></p>
 <ol class="arabic simple">
-<li><p><span class="xref myst">Creating a New Repository</span></p></li>
+<li><p><span class="xref myst">Sign In or Create an Account</span></p></li>
+<li><p><span class="xref myst">Create a New Repository</span></p></li>
+<li><p><span class="xref myst">Create a README</span></p></li>
+<li><p><span class="xref myst">Commit Changes</span></p></li>
+<li><p><span class="xref myst">Add Your Code</span></p></li>
+</ol>
+<p><strong>Cloning Repositories and Pushing Code</strong></p>
+<ol class="arabic simple">
 <li><p><span class="xref myst">Cloning a Repository</span></p></li>
 <li><p><span class="xref myst">Pushing Code to a Repository</span></p></li>
 </ol>
-<hr class="docutils" />
-<section id="creating-a-new-repository">
-<h3>1. Creating a New Repository<a class="headerlink" href="#creating-a-new-repository" title="Permalink to this heading">#</a></h3>
-<section id="step-1-sign-in-or-create-an-account">
-<h4>Step 1: Sign In or Create an Account<a class="headerlink" href="#step-1-sign-in-or-create-an-account" title="Permalink to this heading">#</a></h4>
-<p>If you don’t have a GitHub account, go to <a class="reference external" href="https://github.com/">GitHub’s website</a> and sign up. If you already have an account, sign in.</p>
 </section>
-<section id="step-2-create-a-new-repository">
-<h4>Step 2: Create a New Repository<a class="headerlink" href="#step-2-create-a-new-repository" title="Permalink to this heading">#</a></h4>
+<hr class="docutils" />
+<section id="basic-github-introduction">
+<h2>Basic GitHub Introduction<a class="headerlink" href="#basic-github-introduction" title="Permalink to this heading">#</a></h2>
+<section id="sign-in-or-create-an-account">
+<h3>1. Sign In or Create an Account<a class="headerlink" href="#sign-in-or-create-an-account" title="Permalink to this heading">#</a></h3>
+<p>If you don’t have a GitHub account, go to GitHub’s website and sign up. If you already have an account, sign in.</p>
+<p>Once you have an account, you can set up your first repository, or repo. Each of your repositories will represent all of the code and data that you want to share relevant to a given data processing project.</p>
+</section>
+<section id="create-a-new-repository">
+<h3>2. Create a New Repository<a class="headerlink" href="#create-a-new-repository" title="Permalink to this heading">#</a></h3>
+<section id="id1">
+<h4>Create a New Repository<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h4>
+<p>Create a new repository by selecting the “Create new” or + icon on the landing page for your account. Select “New repository” from the dropdown that appears after clicking on the + icon.</p>
+<p><img alt="Create Repository" src="_images/github_create_repo.png" /></p>
+</section>
+<section id="fill-in-repository-details">
+<h4>Fill in Repository Details<a class="headerlink" href="#fill-in-repository-details" title="Permalink to this heading">#</a></h4>
+<p>You will see a menu of options when you create your repository. The repository will be linked to your account, so you will see your username followed by a back slash where you will name your repository.</p>
 <ol class="arabic simple">
-<li><p>Click on the “+” sign in the upper right corner of the GitHub homepage.</p></li>
-<li><p>Select “New Repository” from the dropdown menu.</p></li>
+<li><p>Write the <strong>Repository</strong> name that you want to have for your repository after this slash. The name should be short and sufficiently descriptive for a user to understand the purpose of the repository.</p></li>
+<li><p>You can add additional details about your project in the <strong>Description</strong> section.</p></li>
+<li><p>For others to be able to see your code, you will set the repository to be public. While you get familiar with GitHub and add your code and data, you may want to start by creating a private repository. This can be changed later.</p></li>
+<li><p>Select the option to Add a README file, as this is where you will provide a description of your script and files.</p></li>
+<li><p>You can also select to add a .gitignore template. One of the common ways that GitHub is used is by “cloning” a repository. This process replicates all of the files within the repository on GitHub to the computer of the person who “cloned” the repository. The purpose of the .gitignore file is to flag some files that might not need to be downloaded when cloning.</p></li>
+<li><p>You can also choose a license here, which will place a text file describing how your code can be used within the repository. An example of a license can be found here: <a class="reference external" href="https://opensource.org/license/mit">MIT License</a>. You can also refer to your institutional guidelines for further information on appropriate licensing.</p></li>
+<li><p>Once you have completed the required fields, you can hit “Create repository” to move forward towards the next steps in sharing your code.</p></li>
 </ol>
-<p><img alt="Create Repository" src="_images/github1.png" /></p>
+<p><img alt="Repository Details" src="_images/github_create_repo2.png" /></p>
+<p><strong>Please note</strong>: The goal of GitHub is to be transparent about the code development process. Because of this, all of the changes that you make, even while your repository is private, will be visible after you switch the repository to public when you are ready to share. This means that any private information that might be present in code or data (e.g.: passwords, PII), should be <em>removed before being added to GitHub</em>.</p>
 </section>
-<section id="step-3-fill-in-repository-details">
-<h4>Step 3: Fill in Repository Details<a class="headerlink" href="#step-3-fill-in-repository-details" title="Permalink to this heading">#</a></h4>
-<ul class="simple">
-<li><p><strong>Repository Name</strong>: Choose a unique name for your repository.</p></li>
-<li><p><strong>Description</strong>: Add a brief description of your project (optional).</p></li>
-<li><p><strong>Visibility</strong>: Choose between public (visible to everyone) or private (only visible to collaborators).</p></li>
-</ul>
-<p><img alt="Repository Details" src="_images/github2.png" /></p>
+<section id="create-a-readme">
+<h4>3: Create a README<a class="headerlink" href="#create-a-readme" title="Permalink to this heading">#</a></h4>
+<p>You have officially created your first repository! The only file currently within the repository will be the README template (if you selected this option in creating the repository). The README will initially include only the title and description that you had set. A good README should contain a clear description of the purpose of your code and data. Examples of information to include can be found on the <a class="reference external" href="https://climate-cafe.github.io/template.html">Reproducible Data Creation Pipeline</a> page.</p>
+<p>To edit your README, you can select the pencil icon.</p>
+<p><img alt="Select Pencil" src="_images/github_edit_readme.png" /></p>
+<p>After selecting the pencil icon, you will see a screen with two tabs. One tab will read <strong>Edit</strong>. This tab shows the README Markdown code used to generate the text that you see in your repo’s README. For more information about Markdown, guidance can be found here: <a class="reference external" href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a>. To see the product of the Markdown code, you can shift to the <strong>Preview</strong> section.</p>
+<p><img alt="View Preview" src="_images/github_preview_readme.png" /></p>
 </section>
-<section id="step-4-initialize-with-a-readme">
-<h4>Step 4: Initialize with a README<a class="headerlink" href="#step-4-initialize-with-a-readme" title="Permalink to this heading">#</a></h4>
-<ul class="simple">
-<li><p>Select the “Initialize this repository with a README” option. This will create an initial README file for your repository.</p></li>
-</ul>
-<p><img alt="Initialize README" src="_images/github3.png" /></p>
+<section id="commit-changes">
+<h4>4: Commit Changes<a class="headerlink" href="#commit-changes" title="Permalink to this heading">#</a></h4>
+<p>As you write the relevant sections of your README, you will see the Commit changes… button in the upper right change to a darker green. Committing changes is how you save your progress in GitHub. Each “commit” is essentially a save of your work and an update to the content.</p>
+<p>Once you have written out your README text and selected the Commit changes… button, you will see a pop-up where you can enter your commit message. Commit messages are a useful tool for tracking progress and letting yourself and any collaborators know what changes you have made since the last save. For this commit message, you might just say that you have written out the README.</p>
+<p><img alt="Commit Changes" src="_images/github_commit_change.png" /></p>
+<p><strong>Please</strong> note that like all of the files which you will share, the commit changes and messages will be visible to the public after your repository becomes public.</p>
+<p>After you have written your commit message, you have two options to select from before saving your progress with the <strong>Commit changes</strong> button. The default option will be to commit directly to the main branch. This means you want to immediately update your project. Creating a new branch and starting a pull request is what you do if you want to suggest changes to someone else’s repository, or if you want to continue to make a series of different changes in a new space without updating your main project area each time.</p>
+<p>If you select “<strong>Commit directly to the main branch</strong>”, your README changes will be saved immediately on your main repository. You can continue to make and commit changes as needed.</p>
 </section>
-<section id="step-5-create-repository">
-<h4>Step 5: Create Repository<a class="headerlink" href="#step-5-create-repository" title="Permalink to this heading">#</a></h4>
-<p>Click the “Create repository” button to create your new repository.</p>
+<section id="add-your-code">
+<h4>5: Add Your Code<a class="headerlink" href="#add-your-code" title="Permalink to this heading">#</a></h4>
+<p>Once your README is complete, the next step will be to submit your scripts to GitHub. To start that process, you can return to your repository landing page by selecting the link to your repository name.</p>
+<p>It is best practice to save any code or data you are sharing through GitHub in a folder infrastructure that will be interpretable to new users. Before uploading your code, you can create a code folder with an additional README describing the files to be uploaded there. To do this, you can select the “<strong>Add file</strong>” button, and then select “<strong>+Create new file</strong>”</p>
+<p><img alt="Add file" src="_images/github_upload_1.png" /></p>
+<p>Selecting the “<strong>+Create new file</strong>” button will open Markdown text like when you were creating your README. To add a folder to your repository, you can type the name you would like for the folder, and then add a back slash after. Here, we have created a folder for /code/. You will not be able to save your folder unless you create a file within “code”. You can type a short description of the files you would like to upload in the Markdown text area, and then repeat the process above to commit changes to the main branch in your repository.</p>
+<p><img alt="Add code folder" src="_images/github_upload_2.png" /></p>
+<p>After you have committed your changes, you will see the contents of the folder that you have just created, along with the text file that you had added to it. The next step will be to upload your scripts. To do this, select the “<strong>Add file</strong>” button from within your code folder, and then select “<strong>Upload files</strong>”.</p>
+<p><img alt="Upload files" src="_images/github_upload_3.png" /></p>
+<p>You will see a screen where you can either select files to upload from a folder or drag and drop your code. Once your files have been uploaded, you can select “<strong>Commit changes…</strong>” again to save the changes.</p>
+<p><img alt="Select files Upload files" src="_images/github_upload_4.png" /></p>
+<p>Returning to the repository home page, you will be able to see your README file and your code folder, the main components that will allow other researchers to replicate your work. As you have any further changes, you can commit changes and have a record of past versions.</p>
 </section>
 </section>
-<hr class="docutils" />
+</section>
+<section id="cloning-repositories-and-pushing-code">
+<h2>Cloning Repositories and Pushing Code<a class="headerlink" href="#cloning-repositories-and-pushing-code" title="Permalink to this heading">#</a></h2>
+</section>
 <section id="cloning-a-repository">
-<h3>2. Cloning a Repository<a class="headerlink" href="#cloning-a-repository" title="Permalink to this heading">#</a></h3>
-<section id="step-1-find-a-repository-to-clone">
-<h4>Step 1: Find a Repository to Clone<a class="headerlink" href="#step-1-find-a-repository-to-clone" title="Permalink to this heading">#</a></h4>
-<p>You can clone both your own repositories or those shared by others.</p>
+<h2>1. Cloning a Repository<a class="headerlink" href="#cloning-a-repository" title="Permalink to this heading">#</a></h2>
+<section id="find-a-repository-to-clone">
+<h3>Find a Repository to Clone<a class="headerlink" href="#find-a-repository-to-clone" title="Permalink to this heading">#</a></h3>
+<p>Make sure you have <code class="docutils literal notranslate"><span class="pre">git</span></code> installed.</p>
 </section>
-<section id="step-2-get-the-repository-url">
-<h4>Step 2: Get the Repository URL<a class="headerlink" href="#step-2-get-the-repository-url" title="Permalink to this heading">#</a></h4>
+<section id="get-the-repository-url">
+<h3>Get the Repository URL<a class="headerlink" href="#get-the-repository-url" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>Open the repository you want to clone.</p></li>
+<li><p>Open a Github repository url in your browser. You can clone both your own repositories or those shared by others.</p></li>
 <li><p>Click the “Code” button.</p></li>
 </ol>
 <p><img alt="Clone Repository" src="_images/github4.png" /></p>
@@ -480,32 +523,31 @@ document.write(`
 <li><p>Copy the repository URL.</p></li>
 </ol>
 </section>
-<section id="step-3-clone-the-repository-locally">
-<h4>Step 3: Clone the Repository Locally<a class="headerlink" href="#step-3-clone-the-repository-locally" title="Permalink to this heading">#</a></h4>
+<section id="clone-the-repository-locally">
+<h3>Clone the Repository Locally<a class="headerlink" href="#clone-the-repository-locally" title="Permalink to this heading">#</a></h3>
 <p>Open your terminal or command prompt and navigate to the directory where you want to clone the repository.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/path/to/your/directory
 </pre></div>
 </div>
-<p>Use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> command followed by the repository URL you copied:</p>
+<p>Once you have <code class="docutils literal notranslate"><span class="pre">git</span></code> installed, use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> command followed by the repository URL you copied:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/username/repository-name.git
 </pre></div>
 </div>
 <p>Replace <code class="docutils literal notranslate"><span class="pre">https://github.com/username/repository-name.git</span></code> with the actual repository URL.</p>
 </section>
-<section id="step-4-access-the-cloned-repository">
-<h4>Step 4: Access the Cloned Repository<a class="headerlink" href="#step-4-access-the-cloned-repository" title="Permalink to this heading">#</a></h4>
+<section id="access-the-cloned-repository">
+<h3>Access the Cloned Repository<a class="headerlink" href="#access-the-cloned-repository" title="Permalink to this heading">#</a></h3>
 <p>You now have a local copy of the repository on your computer.</p>
-</section>
 </section>
 <hr class="docutils" />
 <section id="pushing-code-to-a-repository">
-<h3>3. Pushing Code to a Repository<a class="headerlink" href="#pushing-code-to-a-repository" title="Permalink to this heading">#</a></h3>
-<section id="step-1-make-changes">
-<h4>Step 1: Make Changes<a class="headerlink" href="#step-1-make-changes" title="Permalink to this heading">#</a></h4>
+<h3>2. Pushing Code to a Repository<a class="headerlink" href="#pushing-code-to-a-repository" title="Permalink to this heading">#</a></h3>
+<section id="make-changes">
+<h4>Make Changes<a class="headerlink" href="#make-changes" title="Permalink to this heading">#</a></h4>
 <p>Make changes to the files in your local repository using your preferred code editor or IDE.</p>
 </section>
-<section id="step-2-stage-and-commit-changes">
-<h4>Step 2: Stage and Commit Changes<a class="headerlink" href="#step-2-stage-and-commit-changes" title="Permalink to this heading">#</a></h4>
+<section id="stage-and-commit-changes">
+<h4>Stage and Commit Changes<a class="headerlink" href="#stage-and-commit-changes" title="Permalink to this heading">#</a></h4>
 <ol class="arabic simple">
 <li><p>Stage the changes by using the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code> command:</p></li>
 </ol>
@@ -521,30 +563,33 @@ document.write(`
 </div>
 <p>Replace <code class="docutils literal notranslate"><span class="pre">&quot;Your</span> <span class="pre">commit</span> <span class="pre">message</span> <span class="pre">here&quot;</span></code> with a brief, informative message about the changes you made.</p>
 </section>
-<section id="step-3-push-changes-to-github">
-<h4>Step 3: Push Changes to GitHub<a class="headerlink" href="#step-3-push-changes-to-github" title="Permalink to this heading">#</a></h4>
+<section id="push-changes-to-github">
+<h4>Push Changes to GitHub<a class="headerlink" href="#push-changes-to-github" title="Permalink to this heading">#</a></h4>
 <p>Use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code> command to send your committed changes to GitHub:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
 </pre></div>
 </div>
 <p>Replace <code class="docutils literal notranslate"><span class="pre">main</span></code> with the name of the branch you’re working on, e.g., <code class="docutils literal notranslate"><span class="pre">master</span></code> or <code class="docutils literal notranslate"><span class="pre">develop</span></code>.</p>
 </section>
-<section id="step-4-verify-changes-on-github">
-<h4>Step 4: Verify Changes on GitHub<a class="headerlink" href="#step-4-verify-changes-on-github" title="Permalink to this heading">#</a></h4>
+<section id="verify-changes-on-github">
+<h4>Verify Changes on GitHub<a class="headerlink" href="#verify-changes-on-github" title="Permalink to this heading">#</a></h4>
 <p>Visit your GitHub repository in a web browser to see your changes reflected in the repository.</p>
 </section>
-<section id="step-5-obtaining-github-token">
-<h4>Step 5: Obtaining GitHub token<a class="headerlink" href="#step-5-obtaining-github-token" title="Permalink to this heading">#</a></h4>
+<section id="obtaining-github-token">
+<h4>Obtaining GitHub token<a class="headerlink" href="#obtaining-github-token" title="Permalink to this heading">#</a></h4>
 <p>You can follow the following steps, to obtain a GitHub token:</p>
-<ul class="simple">
+<ol class="arabic simple">
 <li><p>Log in to your GitHub account and go to your “Settings” page.</p></li>
 <li><p>Click on “Developer settings” in the left-hand sidebar.</p></li>
 <li><p>Click on “Personal access tokens” and choose “Tokens (classic)”.</p></li>
+</ol>
+<p><img alt="Github token" src="_images/github5.png" /></p>
+<ol class="arabic simple" start="4">
 <li><p>Click on “Generate new token” then “Generate new token (classic)” .</p></li>
 <li><p>Give your token a description, so you can remember what it is for.</p></li>
 <li><p>Select all the scopes available.</p></li>
 <li><p>Click on “Generate token”.</p></li>
-</ul>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Your new token will be displayed. Be sure to copy it and save it for future use, as you won’t be able to see it again.</p>
@@ -585,6 +630,24 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="code_sharing_workflow.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Climate CAFÉ Code-sharing Walkthrough</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="template.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Reproducible Data Creation Pipeline</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -600,28 +663,31 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-new-repository">1. Creating a New Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-sign-in-or-create-an-account">Step 1: Sign In or Create an Account</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-create-a-new-repository">Step 2: Create a New Repository</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-fill-in-repository-details">Step 3: Fill in Repository Details</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-initialize-with-a-readme">Step 4: Initialize with a README</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-create-repository">Step 5: Create Repository</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-github-introduction">Basic GitHub Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sign-in-or-create-an-account">1. Sign In or Create an Account</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-repository">2. Create a New Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Create a New Repository</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fill-in-repository-details">Fill in Repository Details</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-readme">3: Create a README</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-changes">4: Commit Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#add-your-code">5: Add Your Code</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-a-repository">2. Cloning a Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-find-a-repository-to-clone">Step 1: Find a Repository to Clone</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-get-the-repository-url">Step 2: Get the Repository URL</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-clone-the-repository-locally">Step 3: Clone the Repository Locally</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-access-the-cloned-repository">Step 4: Access the Cloned Repository</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-code-to-a-repository">3. Pushing Code to a Repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-make-changes">Step 1: Make Changes</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-stage-and-commit-changes">Step 2: Stage and Commit Changes</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-push-changes-to-github">Step 3: Push Changes to GitHub</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-verify-changes-on-github">Step 4: Verify Changes on GitHub</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-obtaining-github-token">Step 5: Obtaining GitHub token</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-repositories-and-pushing-code">Cloning Repositories and Pushing Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloning-a-repository">1. Cloning a Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-a-repository-to-clone">Find a Repository to Clone</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#get-the-repository-url">Get the Repository URL</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-the-repository-locally">Clone the Repository Locally</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#access-the-cloned-repository">Access the Cloned Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-code-to-a-repository">2. Pushing Code to a Repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#make-changes">Make Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-and-commit-changes">Stage and Commit Changes</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#push-changes-to-github">Push Changes to GitHub</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-changes-on-github">Verify Changes on GitHub</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#obtaining-github-token">Obtaining GitHub token</a></li>
 </ul>
 </li>
 </ul>
