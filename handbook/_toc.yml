@@ -13,7 +13,7 @@ parts:
     chapters:
     - file: cafe_github_org
     - file: code_sharing_workflow
-    - file: github_coming_soon # note: change this to "github" when github.md tutorial page is finished
+    - file: github
     - file: template
   - caption: NIH Data Management and Sharing Policy Guidelines 
     chapters:
