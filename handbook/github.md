@@ -5,20 +5,20 @@ GitHub is a powerful platform for version control and collaborative development.
 ## Table of Contents
 
 ### Basic GitHub Introduction
-1. [Sign In or Create an Account](#sign-in-or-create-an-account)
-2. [Create a New Repository](#creating-a-new-repository)
-3. [Create a README](#create-a-readme)
-4. [Commit Changes](#commit-changes)
-5. [Add Your Code](#add-your-code)
+1. [Sign In or Create an Account](#1-sign-in-or-create-an-account)
+2. [Create a New Repository](#2-create-a-new-repository)
+3. [Create a README](#3-create-a-readme)
+4. [Commit Changes](#4-commit-changes)
+5. [Add Your Code](5-#add-your-code)
 
 ### Cloning Repositories and Pushing Code
-1. [Cloning a Repository](#cloning-a-repository)
-2. [Pushing Code to a Repository](#pushing-code-to-a-repository)
+1. [Cloning a Repository](#1-cloning-a-repository)
+2. [Pushing Code to a Repository](2-pushing-code-to-a-repository)
 
 ------
 
 ## Basic GitHub Introduction
-### 1: Sign In or Create an Account
+### 1. Sign In or Create an Account
 
 If you don’t have a GitHub account, go to GitHub’s website and sign up. If you already have an account, sign in.
 
