@@ -21,13 +21,13 @@ Many of these materials are still under active development, so please check back
 | **Population Weighting Raster Data** | Using the gridded meteorological dataset PRISM as an example, this tutorial demonstrates how to aggregate raster data to administrative units (e.g., counties) with population weights. | https://github.com/Climate-CAFE/population_weighting_raster_data |
 | **Joining Tabular & Spatial Data** | This repository provides tutorial scripts in R and Python for spatializing and mapping tabular temperature data at the county level. | https://github.com/Climate-CAFE/tabular_spatial_data_join |
 | **US Census yearly time series tutorial** | A succinct tutorial for generating time series of socio-economic variables from the US Census Bureau using its API. | https://github.com/Climate-CAFE/census_tutorial |
+| **Bash Scripting for Climate and Health Research** | A micro-tutorial providing an overview of bash scripting and its potential uses in climate and health research. | https://github.com/Climate-CAFE/bash_scripting |
+| **Overview of ZIP Codes and Zip Code Tabulation Areas (ZCTAs)** | This tutorial provides an overview of the differences between ZIP Codes and Zip Code Tabulation Areas and provides code for creating a crosswalk between census blocks and ZCTAs. | https://github.com/Climate-CAFE/zip_codes_and_zctas |
 
 ### Under Development
 
 | Title | Description |
 | --- | --- |
-| **Introduction to Bash Scripting** | This tutorial will explain the purpose of bash scripting on computing clusters and provides sample code for executing a bash script. |
-| **Overview of ZIP Codes and Zip Code Tabulation Areas (ZCTAs)** | This tutorial will provide an overview of the differences between ZIP Codes and Zip Code Tabulation Areas and provides code for creating a crosswalk between ZIP Codes and ZCTAs. |
 | **Discrete Variable Spatial Aggregation** | This tutorial will help researchers explore and understand the process of the spatial aggregation for discrete variables. It will provide the Python code to guide you through various steps of producing spatial aggregation from 1km tiff raster to county polygons for the [Koppen-Geiger climate types](https://www.nature.com/articles/sdata2018214) data. |
 | **Block and Tract-Level PM2.5 Aggregation** | This tutorial will provide an R walkthrough for downloading [high-resolution PM2.5 point data from SEDAC](https://sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019), intersecting PM2.5 data with US census blocks, and population-weighting from the block to tract, block-group, and county levels |
 | **Nationwide Roads Tract Aggregation** | This tutorial will provide the steps for downloading [TIGER/Line roads data](https://assets.nhgis.org/original-data/gis/TGRSHP2020_TechDoc.pdf) and calculating tract-level sum road lenth measures stratified by road class using R. |
