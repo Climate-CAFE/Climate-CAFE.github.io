@@ -46,11 +46,13 @@ Before you begin, ensure you have the necessary data files, github links, and in
 
    - You will add your contribution starting from the CAFE Collection page on Dataverse.
    - From the main Dataverse landing page, you can find the CAFE Collection by using the Search function at the top of the page.
-   - Once you have arrived to the CAFE Collection, find the "Add Data" button by scrolling down the page. You will find "Add Data" right above the list of all datasets in the Collection.
+   - Once you have arrived to the CAFE Collection, find the "Add Data" button by scrolling down the page. You will find "Add Data" right above the list of all datasets in the Collection. Note that there is an "Add Data" button at the top that will not automatically deposit your data to the CAFE Collection.
+
+![](./imgs/add_data_button.png)
    - Select "Add Data" and then "New Dataset" to start your contribution.
    - Before filling out the required metadata, confirm that you are contributing to the CAFE Collection by ensuring the Host Dataverse is "Climate Change and Health Research Coordinating Center (CAFE) Collection" and the Dataset Template is "CAFE Dataverse Deposit Template"
   
-![](./imgs/cafe_deposit_dv.png)
+![](./imgs/add_to_cafe_collection.png)
 
 3. **Fill in Dataset Information**
 Please follow the prompts provided in the Metadata checklist to provide the descriptors required to make your dataset available through Dataverse. Some context-specific instructions have been added to the upload form, and you can additionally find field-specific explanations for each field by hovering your cursor over the question-mark icon next to the entry.
