@@ -17,7 +17,7 @@ parts:
     - file: template
   - caption: NIH Data Management and Sharing Policy Guidelines 
     chapters:
-    - url: https://docs.google.com/document/d/1LiW8IWLY3YZVC5OkbtU42ATFClFBx8UuK734Kot0jkE/edit?usp=sharing
-      title: NIH DMSP CAFÉ Example
+
+      title: NIH DMSP CAFÉ Example (Coming Soon)
     - url: https://support.dataverse.harvard.edu/harvard-dataverse-nih-dmp-guidance
       title: Harvard Dataverse NIH-DMP Guidance
