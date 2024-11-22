@@ -9,9 +9,10 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Coll
 ## General Guidance
 
 - Contributions should be relevant to climate and health research.
-- Contributions should not be identical to data stored in other repositories. The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
+- The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
 - Contributions should be in line with the licensing of raw source data.
 - Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).
+- If you are uploading raw source data that can be reposted for easier accessibility to the climate and health community, please note this in the Title and Description
 - No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Collection. Contributions will be widely accessible to Harvard Dataverse users.
 
 ## File Formatting and Size Limitations
