@@ -11,8 +11,8 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Coll
 - Contributions should be relevant to climate and health research.
 - The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
 - Contributions should be in line with the licensing of raw source data.
-- Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).
-- If you are uploading raw source data that can be reposted for easier accessibility to the climate and health community, please note this in the Title and Description
+- Data contributors should only post data that they own, have generated, or have been granted permission to reshare for increased accessibility (ie: census data).
+- If you are uploading raw source data for easier accessibility to the climate and health community, please note this in the Title and Description
 - No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Collection. Contributions will be widely accessible to Harvard Dataverse users.
 
 ## File Formatting and Size Limitations
@@ -62,7 +62,16 @@ For additional clarity, we have highlighted directions for a few key fields that
    -   **Geospatial Metadata**. Provide information about the area(s) that your data covers as directed by the checklist prompts.
    -   **Computational Workflow**: Open source processing is a priority for reproducibility. Refer to the [Code Sharing Walkthrough page](https://climate-cafe.github.io/code_sharing_workflow.html) for details on the expectations for processing pipelines. Include a link to your processing pipeline (ie:GitHub) if applicable.
    -   **Metadata About Data Sources**: Include all available information about any raw data source from which the dataset was derived (Select *Yes* from the Derived from Another Dataset option before completing this section).
-   -   **Metadata About Geospatial Files**: These details are relevant strictly for spatial file formats. 
+   -   **Metadata About Geospatial Files**: These details are relevant strictly for spatial file formats.
+
+**Source Data Uploads:**
+If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.), please include the below information to ensure that the original dataset source is properly cited:
+   - In the **Citation Metadata - Title** field, include “Reposted Data from: “ followed by the source dataset title.
+   - If you had made subsets of a source dataset (ie: selecting subset of variables, specific geographic area, etc.), these should be noted in the title and description.
+   - Include any available metadata, related publications, and other information available from the source data website. 
+   - In the **Citation Metadata - Description and Notes**, please include language indicating: “This submission includes publicly available data reposted in its original form. Please reference the Related Publication listed here for source and citation information.”
+   - Include all information in the **Metadata About Data Sources** that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer. 
+   - You will only see a field for **Data Type** in the Citation Metadata after you go back to edit the dataset. Please write “Source Data” to indicate this is reposted data available elsewhere.
 
 4. **Upload Data Files**
 
@@ -70,9 +79,18 @@ For additional clarity, we have highlighted directions for a few key fields that
    - Click the "Select Files to Add" button to choose files from your local device or drag and drop files into the upload widget. In addition to the metadata specified in this form, a .csv data dictionary describing all variables should be uploaded as a file with your submission.
    - **Note:** Dataverse supports a wide range of file types. Ensure your files are within the specified size limits.
 
-6. **Finalize and Edit Metadata**
+6. **Save Initial Metadata**
 
-   - Select *Save Dataset* when all fields are filled and you have added the files you would like to submit. After you have saved your dataset, you can edit the metadata to add additional information by selecting *Edit Dataset*
+   - Select *Save Dataset* when all fields are filled and you have added the files you would like to submit.
+  
+7. **Edit Metadata**
+   - After you have saved your dataset, edit the metadata to add additional information by selecting *Edit Dataset*
+   - Please note that there are several metadata fields that will *only* appear after you have saved the initial metadata and gone back to Edit.
+   - When editing your metadata, please fill out as much detail as possible. We especially encourage inclusion of:
+        - **Time Period**
+        - **Data Type**
+        - **Software**
+        - All relevant **Geospatial Metadata** fields
      
 7. **Submit**
 
