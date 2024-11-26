@@ -64,13 +64,14 @@ For additional clarity, we have highlighted directions for a few key fields that
    -   **Metadata About Data Sources**: Include all available information about any raw data source from which the dataset was derived (Select *Yes* from the Derived from Another Dataset option before completing this section).
    -   **Metadata About Geospatial Files**: These details are relevant strictly for spatial file formats.
 
-**Source Data Uploads:**
-If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.), please include the below information to ensure that the original dataset source is properly cited:
-   - In the **Citation Metadata - Title** field, include “Reposted Data from: “ followed by the source dataset title.
+**Extracted Data Uploads:**
+If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.) extracted from already available source data, please include the below information to ensure that the original dataset source is properly cited:
+   - In the **Citation Metadata - Title** field, include “Extracted Data from: “ followed by the source dataset title.
    - If you had made subsets of a source dataset (ie: selecting subset of variables, specific geographic area, etc.), these should be noted in the title and description.
    - Include any available metadata, related publications, and other information available from the source data website. 
-   - In the **Citation Metadata - Description and Notes**, please include language indicating: “This submission includes publicly available data reposted in its original form. Please reference the Related Publication listed here for source and citation information.”
-   - Include all information in the **Metadata About Data Sources** that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer. 
+   - In the **Citation Metadata - Description and Notes**, please include language indicating: “This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.”
+   - Include all information in the **Metadata About Data Sources** that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer.
+      -  Thoroughly review any relevant licensing to ensure extraction and posting of data is permitted
    - You will only see a field for **Data Type** in the Citation Metadata after you go back to edit the dataset. Please write “Source Data” to indicate this is reposted data available elsewhere.
 
 4. **Upload Data Files**
