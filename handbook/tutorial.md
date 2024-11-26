@@ -65,7 +65,7 @@ For additional clarity, we have highlighted directions for a few key fields that
    -   **Metadata About Geospatial Files**: These details are relevant strictly for spatial file formats.
 
 **Extracted Data Uploads:**
-If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.) extracted from already available source data, please include the below information to ensure that the original dataset source is properly cited:
+If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.) extracted from already available source data, please add the data to the ["Extracted Data Contributions"](https://dataverse.harvard.edu/dataverse/cafe-extracted-data) subcollection. Please include the below information to ensure that the original dataset source is properly cited[:
    - In the **Citation Metadata - Title** field, include “Extracted Data from: “ followed by the source dataset title.
    - If you had made subsets of a source dataset (ie: selecting subset of variables, specific geographic area, etc.), these should be noted in the title and description.
    - Include any available metadata, related publications, and other information available from the source data website. 
