@@ -14,11 +14,11 @@ Our team members have created tutorials and code examples for several key data m
 
 **[Click here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml) to view the spreadsheet of our current tutorials (both live and in development).**
 
-A live preview of the table is embedded below.
+A live preview of the table is embedded below.  
 
 
-<div style="text-align: center">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="750" scrolling="yes" overflow="hidden"></iframe>
+<div style="text-align: center; border: 1px gray;">
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="750" scrolling="yes"></iframe>
 </div>
 
 ## Expanding Our Efforts
