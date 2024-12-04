@@ -17,7 +17,7 @@ Our team members have created tutorials and code examples for several key data m
 Many of these materials are still under active development, so please check back regularly for updates.
 
 <div style="text-align: center">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=true&amp;headers=false" width="800" height="800%" scrolling="yes"></iframe>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="800" height="800" scrolling="yes"></iframe>
 </div>
 
 
