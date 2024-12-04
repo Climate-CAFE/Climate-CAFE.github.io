@@ -12,11 +12,7 @@ All code repositories on GitHub whose content is intended to be shared with the 
 
 Our team members have created tutorials and code examples for several key data management procedures and common analysis challenges that climate and health researchers may encounter. These tutorials are intended to provide usable example materials that researchers can download and step through on their own. Many of these materials are still under active development, so please check back regularly for updates.
 
-**[Click here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml) to view the spreadsheet of our current tutorials (both live and in development).**
-
-A live preview of the table is embedded below.  
-
-&nbsp;
+Below is a live embedding of the spreadsheet of our current tutorials (both published and under development). [Click here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml) to view the full spreadsheet directly.
 
 <div style="text-align: center">
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="600" scrolling="yes" style="border: 2px solid grey;"></iframe>
