@@ -15,7 +15,7 @@ Our team members have created tutorials and code examples for several key data m
 Below is a live embedding of the spreadsheet of our current tutorials (both published and under development). [Click here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml) to view the full spreadsheet directly.
 
 <div style="text-align: center">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="600" scrolling="yes" style="border: 2px solid grey;"></iframe>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="600" scrolling="yes" style="border: 1px solid grey;"></iframe>
 </div>
 
 ## Expanding Our Efforts
