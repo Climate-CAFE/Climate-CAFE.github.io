@@ -19,8 +19,8 @@ A live preview of the table is embedded below.
 &nbsp;
 &nbsp;
 
-<div style="text-align: center; border: 1px grey;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="600" scrolling="yes"></iframe>
+<div style="text-align: center">
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2fXkP5T8EvnTeF3yuOmv3w6AWkYiHpasJqEO9hpiMtKWn3V8baEjr1sVQbWL5vAI7GClMqzhlaRfS/pubhtml?widget=false&amp&headers=false&rm=minimal&chrome=false" width="100%" height="600" scrolling="yes" style="border: 2px solid grey;"></iframe>
 </div>
 
 ## Expanding Our Efforts
