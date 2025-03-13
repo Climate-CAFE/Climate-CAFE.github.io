@@ -11,6 +11,8 @@ parts:
       title: CAFÉ Metadata Fields 
     - file: tutorial
     - file: examples
+    - url: https://docs.google.com/document/d/1QqQNPglXXB-W8Oj5_GEjP5egrfWIdQBFtVdiG0WAN9c/edit?tab=t.0#heading=h.ax5a1isl8mnb
+      title: Dataset Selection Tips and Tricks
   - caption: CAFÉ GitHub Organization
     chapters:
     - file: cafe_github_org
