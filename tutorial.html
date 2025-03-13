@@ -417,9 +417,10 @@ document.write(`
 <h2>General Guidance<a class="headerlink" href="#general-guidance" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Contributions should be relevant to climate and health research.</p></li>
-<li><p>Contributions should not be identical to data stored in other repositories. The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.</p></li>
+<li><p>The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.</p></li>
 <li><p>Contributions should be in line with the licensing of raw source data.</p></li>
-<li><p>Data contributors should only post data that they own, have generated, or have been granted permission to reshare in a manipulated version (ie: census data).</p></li>
+<li><p>Data contributors should only post data that they own, have generated, or have been granted permission to reshare for increased accessibility (ie: census data).</p></li>
+<li><p>If you are uploading raw source data for easier accessibility to the climate and health community, please note this in the Title and Description</p></li>
 <li><p>No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Collection. Contributions will be widely accessible to Harvard Dataverse users.</p></li>
 </ul>
 </section>
@@ -481,6 +482,22 @@ For additional clarity, we have highlighted directions for a few key fields that
 <li><p><strong>Metadata About Geospatial Files</strong>: These details are relevant strictly for spatial file formats.</p></li>
 </ul>
 </li>
+</ol>
+<p><strong>Extracted Data Uploads:</strong>
+If you are uploading data with minimal modification (ie: subset of variable, re-structured JSON files, etc.) extracted from already available source data, please add the data to the <a class="reference external" href="https://dataverse.harvard.edu/dataverse/cafe-extracted-data">“Extracted Data Contributions”</a> subcollection. Please include the below information to ensure that the original dataset source is properly cited[:</p>
+<ul class="simple">
+<li><p>In the <strong>Citation Metadata - Title</strong> field, include “Extracted Data from: “ followed by the source dataset title.</p></li>
+<li><p>If you had made subsets of a source dataset (ie: selecting subset of variables, specific geographic area, etc.), these should be noted in the title and description.</p></li>
+<li><p>Include any available metadata, related publications, and other information available from the source data website.</p></li>
+<li><p>In the <strong>Citation Metadata - Description and Notes</strong>, please include language indicating: “This submission includes publicly available data extracted in its original form. Please reference the Related Publication listed here for source and citation information.”</p></li>
+<li><p>Include all information in the <strong>Metadata About Data Sources</strong> that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer.</p>
+<ul>
+<li><p>Thoroughly review any relevant licensing to ensure extraction and posting of data is permitted</p></li>
+</ul>
+</li>
+<li><p>You will only see a field for <strong>Data Type</strong> in the Citation Metadata after you go back to edit the dataset. Please write “Source Data” to indicate this is reposted data available elsewhere.</p></li>
+</ul>
+<ol class="arabic simple" start="4">
 <li><p><strong>Upload Data Files</strong></p>
 <ul class="simple">
 <li><p>The last component of the dataset submission involves uploading your data and code (if not using online computational workflow). You can select or upload files, specify their naming, and specify a folder infrastructure if needed.</p></li>
@@ -488,9 +505,23 @@ For additional clarity, we have highlighted directions for a few key fields that
 <li><p><strong>Note:</strong> Dataverse supports a wide range of file types. Ensure your files are within the specified size limits.</p></li>
 </ul>
 </li>
-<li><p><strong>Finalize and Edit Metadata</strong></p>
+<li><p><strong>Save Initial Metadata</strong></p>
 <ul class="simple">
-<li><p>Select <em>Save Dataset</em> when all fields are filled and you have added the files you would like to submit. After you have saved your dataset, you can edit the metadata to add additional information by selecting <em>Edit Dataset</em></p></li>
+<li><p>Select <em>Save Dataset</em> when all fields are filled and you have added the files you would like to submit.</p></li>
+</ul>
+</li>
+<li><p><strong>Edit Metadata</strong></p>
+<ul class="simple">
+<li><p>After you have saved your dataset, edit the metadata to add additional information by selecting <em>Edit Dataset</em></p></li>
+<li><p>Please note that there are several metadata fields that will <em>only</em> appear after you have saved the initial metadata and gone back to Edit.</p></li>
+<li><p>When editing your metadata, please fill out as much detail as possible. We especially encourage inclusion of:</p>
+<ul>
+<li><p><strong>Time Period</strong></p></li>
+<li><p><strong>Data Type</strong></p></li>
+<li><p><strong>Software</strong></p></li>
+<li><p>All relevant <strong>Geospatial Metadata</strong> fields</p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Submit</strong></p>
