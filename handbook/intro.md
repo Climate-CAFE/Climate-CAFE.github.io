@@ -1,6 +1,6 @@
 # Welcome to the Climate CAFÉ Data Management Page 
 
-The BUSPH-HSPH Climate Change and Health Research Coordinating Center ([CAFÉ](https://climatehealthcafe.org/)) aims to build a Community of Practice by managing and supporting climate change and health research and capacity building efforts.
+The Research Coordinating Center for Climate and Health based at Boston University School of Public Health and Harvard T.H. Chan School of Public Health ([CAFÉ](https://climatehealthcafe.org/)) aims to build a Community of Practice by managing and supporting climate and health research and capacity building efforts.
 
  
 The CAFÉ data management objective is to aid climate and health community of practice by identifying climate and health research data needs, defining common data elements, developing and promoting data science and software tools for processing data, and providing data management and dissemination guidance. 
