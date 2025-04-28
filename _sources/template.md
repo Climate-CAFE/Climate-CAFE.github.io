@@ -18,16 +18,21 @@ my-data-pipeline/
 
 Let's break down each component:
 
-### 1. README.md
+### 1. [README.md](https://hdl.handle.net/1813/116816)
 
 A well-documented README is essential for understanding your data pipeline. It should include the following information:
 
 - Project Overview: Provide a brief description of the project and its goals.
-- Usage: Explain how to use the pipeline, including any required setup or prerequisites.
+- Usage: Explain how to use the pipeline, including any required installation, setup or prerequisites.
 - Data Sources: List the sources of data used in the pipeline.
 - Workflow: Describe the workflow, including the sequence of data processing steps.
 - Dependencies: Mention any software dependencies and how to install them.
 - Contact Information: Include contact information for the project maintainers.
+- License: Include the license that the project is under
+
+For more details, see the Dietrich [ReadMe template](https://hdl.handle.net/1813/116816)
+
+Dietrich, Dianne. (2025) Readme Template for Software. Cornell University eCommons Repository. https://hdl.handle.net/1813/116816
 
 ### 2. data/
 
