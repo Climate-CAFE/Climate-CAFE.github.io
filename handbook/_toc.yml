@@ -23,3 +23,5 @@ parts:
     chapters:
     - url: https://support.dataverse.harvard.edu/harvard-dataverse-nih-dmp-guidance
       title: Harvard Dataverse NIH-DMP Guidance
+    - url: https://www.nia.nih.gov/research/grants-funding/nia-data-management-and-sharing-guidance
+      title: NIH Data Management and Sharing Guidance
