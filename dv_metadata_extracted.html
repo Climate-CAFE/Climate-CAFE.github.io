@@ -1,0 +1,567 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Metadata Requirements for Extracted Data Contributions &#8212; Climate CAFE SOP</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'dv_metadata_extracted';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/2024_CAFE_Logo_RGB_150dpi_Primary_Full_Color.png" class="logo__image only-light" alt="Climate CAFE SOP - Home"/>
+    <script>document.write(`<img src="_static/2024_CAFE_Logo_RGB_150dpi_Primary_Full_Color.png" class="logo__image only-dark" alt="Climate CAFE SOP - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to the Climate CAFÉ Data Management Page
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ Dataverse Collection</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE">Climate-Health CAFÉ Dataverse Collection</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://drive.google.com/file/d/1Zl4iJtdaupjAB1zqHHJWXNvaj6Ms4BiG/view?usp=sharing">CAFÉ Metadata Fields</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.google.com/document/d/1AHolcS6JJC8MLgiaKcuLo_0Y1fuKdHf4A2Kl5WxEVqk/edit?usp=sharing">CAFÉ Recommended README Template</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://drive.google.com/file/d/11asBwzg7QTpZuow9ZFHIODxqu3knON8W/view?usp=sharing">Dataset Selection Tips and Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Contributing to the Climate-Health CAFÉ Dataverse Collection</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Example Datasets in the Climate-Health CAFÉ Dataverse Collection</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">CAFÉ GitHub Organization</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="cafe_github_org.html">Climate CAFÉ GitHub Organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code_sharing_workflow.html">Climate CAFÉ Code-sharing Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">Getting Started with GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="template.html">Reproducible Data Creation Pipeline</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">NIH Data Management and Sharing Policy Guidelines</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://support.dataverse.harvard.edu/harvard-dataverse-nih-dmp-guidance">Harvard Dataverse NIH-DMP Guidance</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.nia.nih.gov/research/grants-funding/nia-data-management-and-sharing-guidance">NIA Data Management and Sharing Guidance</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Climate-CAFE/SOP_documentation" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Climate-CAFE/SOP_documentation/issues/new?title=Issue%20on%20page%20%2Fdv_metadata_extracted.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/dv_metadata_extracted.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Metadata Requirements for Extracted Data Contributions</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-to-dataverse">Uploading to Dataverse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metadata-entry">Metadata Entry</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-data-and-metadata">Uploading Data and Metadata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission-for-review">Submission for Review</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="metadata-requirements-for-extracted-data-contributions">
+<h1>Metadata Requirements for Extracted Data Contributions<a class="headerlink" href="#metadata-requirements-for-extracted-data-contributions" title="Permalink to this heading">#</a></h1>
+<p>This page provides instructions for filling out metadata fields when uploading a dataset to the CAFE Dataverse <a class="reference external" href="https://dataverse.harvard.edu/dataverse.xhtml?alias=cafe-extracted-data">Extracted Data Contributions</a> subcollection.</p>
+<section id="uploading-to-dataverse">
+<h2>Uploading to Dataverse<a class="headerlink" href="#uploading-to-dataverse" title="Permalink to this heading">#</a></h2>
+<p>Please use <a class="reference external" href="https://climate-cafe.github.io/tutorial.html">this walkthrough page</a> for information about how to upload to the CAFE Collection on Dataverse. A video tutorial is also available: <a class="reference external" href="https://www.youtube.com/watch?v=7NtKGAi-x6g">How to Upload to Dataverse - Tutorial</a></p>
+</section>
+<section id="metadata-entry">
+<h2>Metadata Entry<a class="headerlink" href="#metadata-entry" title="Permalink to this heading">#</a></h2>
+<p>For datasets that are being reposted without modifications from their original form, please add metadata in line with the guidance below:</p>
+<ol class="arabic simple">
+<li><p>All datasets will be located in a subcollection within the CAFE collection that is named <a class="reference external" href="https://dataverse.harvard.edu/dataverse.xhtml?alias=cafe-extracted-data">“Extracted Data Contributions”</a>. Visit the CAFE Collection, and this listed collection, then select “Add Data” and “New Dataset” when you are ready to record metadata and upload files.</p></li>
+<li><p>In the <strong>Citation Metadata - Title</strong> field, you will see prepopulated “Extracted Data from: “. Please keep this language and add the source dataset title.</p></li>
+</ol>
+<ul class="simple">
+<li><p>If you had made subsets of a source dataset (ie: selecting subset of variables, specific geographic area, etc.), these should be noted in the title and description</p></li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>Under <strong>Author</strong>, enter the name of the source dataset creator (ie: agency, department, etc.).</p></li>
+<li><p>The <strong>Point of Contact</strong> field will be pre-populated with CAFE and <a class="reference external" href="mailto:climatecafe&#37;&#52;&#48;bu&#46;edu">climatecafe<span>&#64;</span>bu<span>&#46;</span>edu</a>. Please leave this field as is.</p></li>
+<li><p>In the <strong>Description</strong>, add a quoted description (if available from the source data) where noted in the metadata template. If no description is available, or if further guidance is required given the complexity/type of data add your own description text. Note the contact information for the source dataset where noted.</p></li>
+<li><p>Include the <strong>Subject</strong> and <strong>Keywords</strong> that best represent the dataset</p></li>
+</ol>
+<ul class="simple">
+<li><p>Note, you can ignore the language about the CCH terms in this section. These will be added separately. Add Keywords you think are relevant, using a controlled vocabulary if applicable.</p></li>
+</ul>
+<ol class="arabic simple" start="7">
+<li><p>Include your name in the <strong>Depositor Field</strong></p></li>
+<li><p>In the <strong>Notes</strong> section include the dataset name, your name, and the download date where listed.</p></li>
+<li><p>For the <strong>Time Period</strong>, use the best estimation possible for the start and end dates the data are applicable for. If there are multiple component datasets with separate time spans, you can use the Plus button to the right to note separate entries. The time period will not always be applicable, try to include us much information as possible. If no details are available, use the date of last update to the dataset or 9999-99-99.</p></li>
+<li><p>If you used any coding or programming to query the data, or if there are relevant scripts to note for using the data, list these in the <strong>Computational Workflow Metadata</strong>.</p></li>
+<li><p>In the <strong>Metadata About Data Sources</strong> section, leave the derivation question marked as yes.</p></li>
+</ol>
+<ul class="simple">
+<li><p>Include all information in the <strong>Metadata About Data Sources</strong> that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer.</p></li>
+<li><p>Thoroughly review any relevant licensing to ensure extraction and posting of data is permitted</p></li>
+</ul>
+<ol class="arabic simple" start="12">
+<li><p>The <strong>Metadata About Geospatial Files</strong> applies to vector polygons, points, line and raster datasets. If you are unfamiliar with geographical data systems, contact a CAFE team member or colleague. Information about the spatial reference may be included in metadata, or may need to be accessed by reading the data into a geospatial processing tool.</p></li>
+<li><p>At the very bottom, select <strong>CCH Terms</strong> from the dropdown menu relevant to the source dataset.</p></li>
+</ol>
+</section>
+<section id="uploading-data-and-metadata">
+<h2>Uploading Data and Metadata<a class="headerlink" href="#uploading-data-and-metadata" title="Permalink to this heading">#</a></h2>
+<p>When you are uploading files, maintain the structure and include relevant metadata</p>
+<ul class="simple">
+<li><p>If data is downloaded with descriptive file naming, maintain the naming for upload to Dataverse</p></li>
+</ul>
+<p>When you upload the dataset to Dataverse, include with it any metadata files (PDF documents, TXT files, etc.). To keep a record of the data source and URL from which data was downloaded, <strong>print both the source data web page to a PDF and save as an HTML to include as added metadata.</strong></p>
+<ul class="simple">
+<li><p>For uploaded metadata documents and web page PDFs, add a tag to the file indicating “Documentation”.</p></li>
+<li><p>You can make this adjustment by selecting the checkmark to the left of the files you will tag, then selecting “Edit Data” and “Tags”.</p></li>
+</ul>
+<p>We would rather capture more information we need than less. Please also print to PDF or save as HTML any other metadata documents, terms and conditions, frequently asked questions, or additional sites that contain details about the dataset being uploaded. Please be thorough in reviewing the available metadata and include as much as possible.</p>
+<p>The upload process for Dataverse can crash with very large files or with many small files. If you are uploading many small files, consider using a .zip file to make the upload easier and the data more easily accessible. If your Dataverse session appears to be loading for longer than expected, try to preserve metadata in a separate file and reload your browser. You may need to refill metadata and upload your data again. Reach out to a CAFE team member if issues persist.</p>
+<p><strong>Please Note:</strong> You will not see the full list of data description fields when first posting your data. After you have uploaded and saved your data initially, please click the Edit Dataset button to add more metadata. After selecting Edit Dataset and Metadata, scroll through to see if there are any additional fields you can complete with the available metadata. Not all fields are necessary, but if any appear relevant, add your content.</p>
+<p>If you find <strong>Terms and Conditions</strong> relevant to your dataset, please download the PDF and upload as Data, and also copy the text as is to the <strong>Documentation and Access to Sources</strong> field in the <strong>Citation Metadata</strong>. Preface with “Terms and conditions were captured directly from SOURCE and are pasted below:”</p>
+</section>
+<section id="submission-for-review">
+<h2>Submission for Review<a class="headerlink" href="#submission-for-review" title="Permalink to this heading">#</a></h2>
+<p>Don’t forget to submit your dataset for review when you have uploaded the data and completed all the metadata fields which you are able to complete! The CAFE team will ensure all fields are complete. Expect a 1 to 2 week turnaround, if there are questions or issues, a team member will reach out to you.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-to-dataverse">Uploading to Dataverse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metadata-entry">Metadata Entry</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uploading-data-and-metadata">Uploading Data and Metadata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission-for-review">Submission for Review</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Climate CAFE
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
