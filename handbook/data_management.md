@@ -1,4 +1,4 @@
-# Example of NIH Data Management and Sharing Plan leveraging the Climate-Health CAFÉ Dataverse Collection
+# Example of NIH Data Management and Sharing Plan leveraging the Climate-Health CAFE Dataverse Collection
 
 ## Data Type
 
