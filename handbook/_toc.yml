@@ -10,7 +10,7 @@ parts:
     - url: https://drive.google.com/file/d/1Zl4iJtdaupjAB1zqHHJWXNvaj6Ms4BiG/view?usp=sharing
       title: CAFÉ Metadata Fields 
     - file: dv_README_template
-    - file: dv_metadata_extracted.md
+    - file: dv_metadata_extracted
     - url: https://drive.google.com/file/d/11asBwzg7QTpZuow9ZFHIODxqu3knON8W/view?usp=sharing
       title: Dataset Selection Tips and Tricks
     - file: tutorial
