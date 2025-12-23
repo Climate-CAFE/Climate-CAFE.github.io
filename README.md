@@ -1,5 +1,5 @@
-# Climate CAFE GitHub Pages Website
-Contains the CAFE Public Data Standard Operating Procedure for Data Management functions such as Harvard Dataverse interfacing and GitHub integration.
+# BUSPH-HSPH CAFE RCC Documentation Site
+Contains CAFE documentation pages and materials, including instructions for interfacing with the CAFE Dataverse collection on Harvard Dataverse and the CAFE GitHub organization's repositories and tutorials.
 
 The rendered website is located at [https://climate-cafe.github.io/](https://climate-cafe.github.io/).
 
