@@ -3,19 +3,19 @@
 format: jb-book
 root: intro 
 parts:
-  - caption: CAFÉ Dataverse Collection 
+  - caption: CAFE Dataverse Collection 
     chapters:
     - url: https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE
-      title: Climate-Health CAFÉ Dataverse Collection 
+      title: Climate-Health CAFE Dataverse Collection 
     - url: https://drive.google.com/file/d/1Zl4iJtdaupjAB1zqHHJWXNvaj6Ms4BiG/view?usp=sharing
-      title: CAFÉ Metadata Fields 
+      title: CAFE Metadata Fields 
     - file: dv_README_template
     - file: dv_metadata_extracted
     - url: https://drive.google.com/file/d/11asBwzg7QTpZuow9ZFHIODxqu3knON8W/view?usp=sharing
       title: Dataset Selection Tips and Tricks
     - file: tutorial
     - file: examples
-  - caption: CAFÉ GitHub Organization
+  - caption: CAFE GitHub Organization
     chapters:
     - file: cafe_github_org
     - file: code_sharing_workflow
