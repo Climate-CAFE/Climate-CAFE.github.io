@@ -1,4 +1,4 @@
-# Example Datasets in the Climate-Health CAFÉ Dataverse Collection
+# Example Datasets in the Climate-Health CAFE Dataverse Collection
 
 
 ## Wildfire Smoke Dataset [Dataverse Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VHNJBD)

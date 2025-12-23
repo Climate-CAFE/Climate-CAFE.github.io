@@ -1,4 +1,4 @@
-# Contributing to the Climate-Health CAFÉ Dataverse Collection
+# Contributing to the Climate-Health CAFE Dataverse Collection
 
 ## Guidelines for Dataset Contributions
 
@@ -24,7 +24,7 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Coll
 ## Adding to a Sub-Collection
 The CAFE Collection provides infrastructure for organizing entries called sub-collections. A sub-collection is a great way to keep your lab or organization's uploaded datasets together in one place while still being a part of the CAFE Collection. For an example, see the [NSAPH sub-collection](https://dataverse.harvard.edu/dataverse/nsaph).
 
-If you would like to have a sub-collection within the CAFE Collection, please submit the [Request Form for CAFÉ Sub-Collection](https://docs.google.com/forms/d/e/1FAIpQLScxyjsfirC_b4WhSweODlk5AVZJGxQklN7oxNtn_j4lybldHA/viewform) with details of your project, department, organization, or publication. Please note that subcollections are meant to organize data from specific contributors and teams, not based on topics and themes. Data users can find data under specific themes and research topics by using the search functions, so long as your contribution has included the relevant keywords, controlled vocabulary, and other relevant metadata. The next section describes these metadata in more depth.
+If you would like to have a sub-collection within the CAFE Collection, please submit the [Request Form for CAFE Sub-Collection](https://docs.google.com/forms/d/e/1FAIpQLScxyjsfirC_b4WhSweODlk5AVZJGxQklN7oxNtn_j4lybldHA/viewform) with details of your project, department, organization, or publication. Please note that subcollections are meant to organize data from specific contributors and teams, not based on topics and themes. Data users can find data under specific themes and research topics by using the search functions, so long as your contribution has included the relevant keywords, controlled vocabulary, and other relevant metadata. The next section describes these metadata in more depth.
 
 # Harvard Dataverse Repository Tutorial
 This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) within the Harvard Dataverse Repository. 
