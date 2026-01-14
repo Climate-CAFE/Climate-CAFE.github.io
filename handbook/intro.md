@@ -7,7 +7,7 @@ The CAFE data management objective is to aid climate and health community of pra
 
 ### CAFE Data Sharing 
 
-Harvard Dataverse is an open source generalist data repository where we are amassing a collection of commonly-used climate and health data and linkages, including spatial data. Following FAIR principles, we strongly encourage the community of practice to help expand the Climate-Health CAFE Dataverse collection by contributing data for sharing and reuse. 
+Harvard Dataverse is an open source generalist data repository where we are amassing a collection of commonly-used climate and health data and linkages, including spatial data. Following FAIR principles, we strongly encourage the community of practice to help expand the CAFE Dataverse collection by contributing data for sharing and reuse. 
 
 ### CAFE Tutorials and Code Sharing
 
