@@ -1,4 +1,5 @@
-# Contributing to the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Dataverse
+# Contributing to the CAFE Collection on Dataverse
+The following guide will walk through how to contribute to the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Harvard Dataverse.
 
 ## Guidelines for Dataset Contributions
 
