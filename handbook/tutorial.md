@@ -1,4 +1,4 @@
-# Contributing to the Climate-Health CAFE Dataverse Collection
+# Contributing to the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Dataverse
 
 ## Guidelines for Dataset Contributions
 
@@ -8,11 +8,11 @@ Parameters for what datasets are appropriate and inappropriate for the CAFE Coll
 
 ## General Guidance
 
-- Contributions should be relevant to climate and health research.
+- Contributions should be relevant to health and extreme weather research.
 - The submission of processed derivatives or expansions of data accessible through existing sharing resources (ie: SEDAC, Google Earth Engine) are encouraged.
 - Contributions should be in line with the licensing of raw source data.
 - Data contributors should only post data that they own, have generated, or have been granted permission to reshare for increased accessibility (ie: census data).
-- If you are uploading raw source data for easier accessibility to the climate and health community, please note this in the Title and Description
+- If you are uploading raw source data for easier accessibility to the community, please note this in the Title and Description
 - No restricted access data (ie: data including personal identifying information) should be shared through the CAFE Collection. Contributions will be widely accessible to Harvard Dataverse users.
 
 ## File Formatting and Size Limitations
@@ -27,7 +27,7 @@ The CAFE Collection provides infrastructure for organizing entries called sub-co
 If you would like to have a sub-collection within the CAFE Collection, please submit the [Request Form for CAFE Sub-Collection](https://docs.google.com/forms/d/e/1FAIpQLScxyjsfirC_b4WhSweODlk5AVZJGxQklN7oxNtn_j4lybldHA/viewform) with details of your project, department, organization, or publication. Please note that subcollections are meant to organize data from specific contributors and teams, not based on topics and themes. Data users can find data under specific themes and research topics by using the search functions, so long as your contribution has included the relevant keywords, controlled vocabulary, and other relevant metadata. The next section describes these metadata in more depth.
 
 # Harvard Dataverse Repository Tutorial
-This tutorial provides step-by-step instructions on how to upload data to the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) within the Harvard Dataverse Repository. 
+This tutorial provides step-by-step instructions on how to upload data to the [**CAFE Research Coordinating Center for Health and Extreme Weather Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) within the Harvard Dataverse Repository. 
 
 Click below to view a tutorial video on uploading to the Harvard Dataverse CAFE Collection.
 
@@ -41,7 +41,7 @@ Before you begin, ensure you have the necessary data files, github links, and in
 
 1. **Log In or Create an Account**
 
-   - If you haven't already, visit the [**Climate Change and Health Research Coordinating Center (CAFE) Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) and either log in to your existing account or create a new one.
+   - If you haven't already, visit the [**CAFE Research Coordinating Center for Health and Extreme Weather Collection**](https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE) and either log in to your existing account or create a new one.
 
 2. **Select "Add Data" from the CAFE Dataverse Collection page**
 
@@ -51,14 +51,14 @@ Before you begin, ensure you have the necessary data files, github links, and in
 
 ![](./imgs/add_data_button.png)
    - Select "Add Data" and then "New Dataset" to start your contribution.
-   - Before filling out the required metadata, confirm that you are contributing to the CAFE Collection by ensuring the Host Dataverse is "Climate Change and Health Research Coordinating Center (CAFE) Collection" and the Dataset Template is "CAFE Dataverse Deposit Template"
+   - Before filling out the required metadata, confirm that you are contributing to the CAFE Collection by ensuring the Host Dataverse is "CAFE Research Coordinating Center for Health and Extreme Weather Collection" and the Dataset Template is "CAFE Dataverse Deposit Template"
   
 ![](./imgs/add_to_cafe_collection.png)
 
 3. **Fill in Dataset Information**
 Please follow the prompts provided in the Metadata checklist to provide the descriptors required to make your dataset available through Dataverse. Some context-specific instructions have been added to the upload form, and you can additionally find field-specific explanations for each field by hovering your cursor over the question-mark icon next to the entry.
 For additional clarity, we have highlighted directions for a few key fields that may be unfamiliar to users:
-   -   **Keywords and Controlled Vocabulary**: Add keywords to aid in discoverability. Controlled vocabulary is used to ensure keywords are consistent across different data contributors. NIEHS has established a glossary of keywords that CAFE data contributors are expected to use. Select keywords relevant to your data from the [Climate Change and Human Health Glossary](https://tools.niehs.nih.gov/cchhglossary/). The Controlled Vocabulary Name can be left blank in the metadata, but the glossary link should be included in the URL section. This URL should appear as a default. If you would like to include keywords from another glossary, follow the same procedure using the + button to add new keywords and including the relevant URL for each.
+   -   **Keywords and Controlled Vocabulary**: Add keywords to aid in discoverability. Controlled vocabulary is used to ensure keywords are consistent across different data contributors. Include the name and URL of the controlled vocabulary you are using (e.g., MeSH, [https://www.ncbi.nlm.nih.gov/mesh](https://www.ncbi.nlm.nih.gov/mesh)) in the "Keyword" metadata field. Use the "+" button to add additional keywords. If all your keywords are from the same controlled vocabulary, you only need to enter the URL once. If you would like to include keywords from another glossary, follow the same procedure using the "+" button to add new keywords and including the relevant URL for each.
    -   **Geospatial Metadata**. Provide information about the area(s) that your data covers as directed by the checklist prompts.
    -   **Computational Workflow**: Open source processing is a priority for reproducibility. Refer to the [Code Sharing Walkthrough page](https://climate-cafe.github.io/code_sharing_workflow.html) for details on the expectations for processing pipelines. Include a link to your processing pipeline (ie:GitHub) if applicable.
    -   **Metadata About Data Sources**: Include all available information about any raw data source from which the dataset was derived (Select *Yes* from the Derived from Another Dataset option before completing this section).
@@ -97,4 +97,4 @@ If you are uploading data with minimal modification (ie: subset of variable, re-
 
    - Once you're satisfied with the dataset and metadata, click the "*Submit for Review*" button.
 
-Congratulations! You've successfully uploaded your data to the Harvard Dataverse Repository under the "**Climate Change and Health Research Coordinating Center (CAFE) Collection**" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the CAFE Collection.
+Congratulations! You've successfully uploaded your data to the Harvard Dataverse Repository under the "**CAFE Research Coordinating Center for Health and Extreme Weather Collection**" organization. Your dataset is now being reviewed for collaboration, sharing, and archiving within the CAFE Collection.

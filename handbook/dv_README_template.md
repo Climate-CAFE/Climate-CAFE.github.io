@@ -1,6 +1,6 @@
 # CAFE Dataverse Collection README Template
 
-All datasets shared through the Climate CAFE Dataverse Collection should include a README file. When you submit your dataset for review to be published to the CAFE Collection, the reviewer will verify that the questions below have been answered in either the attached README file or the metadata. Below are some questions to get you started on what information should be included. Not all of these questions need to be answered through the README if they are already described in the Metadata. 
+All datasets shared through the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Harvard Dataverse should include a README file. When you submit your dataset for review to be published to the CAFE Collection, the reviewer will verify that the questions below have been answered in either the attached README file or the metadata. Below are some questions to get you started on what information should be included. Not all of these questions need to be answered through the README if they are already described in the Metadata. 
 
 The **bolded** questions do not have a designated metadata field where the info can be entered and should only be provided through the README file.  
 &nbsp;

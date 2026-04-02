@@ -1,8 +1,8 @@
-# Example of NIH Data Management and Sharing Plan leveraging the Climate-Health CAFE Dataverse Collection
+# Example of NIH Data Management and Sharing Plan leveraging the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Harvard Dataverse
 
 ## Data Type
 
-This project utilizes diverse data sources, including health data (e.g., Medicare claims data from the Center of Medicare and Medicaid Services (CMS)), weather and climate data (e.g., meteorological data from gridMET and PRISM), satellite data (e.g., NASA, ESA), environmental exposure data (EPA monitor data), and sociodemographic data (e.g., area-level demographics from the Census and American Community Survey). Data volumes are expected to range from hundreds of gigabytes to tens of terabytes. All research data will be deposited into the Harvard Dataverse, specifically the Climate CAFE Harvard Dataverse collection, to facilitate data preservation and sharing.
+This project utilizes diverse data sources, including health data (e.g., Medicare claims data from the Center of Medicare and Medicaid Services (CMS)), weather data (e.g., meteorological data from gridMET and PRISM), satellite data (e.g., NASA, ESA), environmental exposure data (EPA monitor data), and sociodemographic data (e.g., area-level demographics from the Census and American Community Survey). Data volumes are expected to range from hundreds of gigabytes to tens of terabytes. All research data will be deposited into the Harvard Dataverse, specifically the CAFE Research Coordinating Center for Health and Extreme Weather Collection on Harvard Dataverse, to facilitate data preservation and sharing.
 
 Examples of research data sets included in this study are:
 - Global and national air pollution exposure data (e.g., PM2.5, NO2, O3, and PM2.5 element concentrations).
@@ -23,7 +23,7 @@ All data will be made available in open file formats such as csv, fst, netCDF, t
 
 ## Standards
 
-Data products will adhere to tabular or multidimensional file formats, organized according to predefined data models for structured data. Spatial variables, temporal information, and numerical codes will follow standard formats to ensure machine- and human-readability. GitHub, specifically the Climate-CAFE GitHub organization, will maintain contemporaneous records of data processing details, processing pipelines, and documentation, making them publicly accessible alongside the data on Harvard Dataverse.
+Data products will adhere to tabular or multidimensional file formats, organized according to predefined data models for structured data. Spatial variables, temporal information, and numerical codes will follow standard formats to ensure machine- and human-readability. GitHub, specifically the CAFE GitHub organization, will maintain contemporaneous records of data processing details, processing pipelines, and documentation, making them publicly accessible alongside the data on Harvard Dataverse.
 
 ## Data Preservation, Access, and Associated Timelines
 
@@ -43,5 +43,5 @@ The following individuals are responsible for overseeing data management, proces
 
 Planned research outputs include:
 
-1. Research data sets deposited into the Harvard Dataverse, publicly available with metadata and documentation, accessible through the Harvard Dataverse Climate CAFE collection.
-2. Software workflow tools deposited as free and open-source resources on GitHub within the Climate CAFE collection, ensuring easy accessibility and usability.
+1. Research data sets deposited into the Harvard Dataverse, publicly available with metadata and documentation, accessible through the CAFE Collection on Harvard Dataverse.
+2. Software workflow tools deposited as free and open-source resources on GitHub within the CAFE Collection, ensuring easy accessibility and usability.
