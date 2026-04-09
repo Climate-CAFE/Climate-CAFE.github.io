@@ -13,8 +13,7 @@ For datasets that are being reposted without modifications from their original f
 3. Under **Author**, enter the name of the source dataset creator (ie: agency, department, etc.). 
 4. The **Point of Contact** field will be pre-populated with CAFE and [climatecafe@bu.edu](mailto:climatecafe@bu.edu). Please leave this field as is.
 5. In the **Description**, add a quoted description (if available from the source data) where noted in the metadata template. If no description is available, or if further guidance is required given the complexity/type of data add your own description text. Note the contact information for the source dataset where noted.
-6. Include the **Subject** and **Keywords** that best represent the dataset
-  - Note, you can ignore the language about the CCH terms in this section. These will be added separately. Add Keywords you think are relevant, using a controlled vocabulary if applicable.
+6. Include the **Subject** and **Keywords** that best represent the dataset. Add Keywords you think are relevant, using a controlled vocabulary if applicable.
 7. Include your name in the **Depositor Field**
 8. In the **Notes** section include the dataset name, your name, and the download date where listed.
 9. For the **Time Period**, use the best estimation possible for the start and end dates the data are applicable for. If there are multiple component datasets with separate time spans, you can use the Plus button to the right to note separate entries. The time period will not always be applicable, try to include us much information as possible. If no details are available, use the date of last update to the dataset or 9999-99-99.
@@ -23,7 +22,6 @@ For datasets that are being reposted without modifications from their original f
   - Include all information in the **Metadata About Data Sources** that is available, including version numbers, institutions, DOI/URL, Date Obtained, Attribution, and Disclaimer. 
   - Thoroughly review any relevant licensing to ensure extraction and posting of data is permitted
 12. The **Metadata About Geospatial Files** applies to vector polygons, points, line and raster datasets. If you are unfamiliar with geographical data systems, contact a CAFE team member or colleague. Information about the spatial reference may be included in metadata, or may need to be accessed by reading the data into a geospatial processing tool.
-13. At the very bottom, select **CCH Terms** from the dropdown menu relevant to the source dataset.
 
 ## Uploading Data and Metadata
 When you are uploading files, maintain the structure and include relevant metadata
