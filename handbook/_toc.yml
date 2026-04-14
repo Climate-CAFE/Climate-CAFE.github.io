@@ -7,7 +7,7 @@ parts:
     chapters:
     - url: https://dataverse.harvard.edu/dataverse.xhtml?alias=CAFE
       title: CAFE Dataverse Collection 
-    - url: https://drive.google.com/file/d/1Zl4iJtdaupjAB1zqHHJWXNvaj6Ms4BiG/view?usp=sharing
+    - url: https://drive.google.com/file/d/1Lw_aCwoopl3Fz-_o7QnmTqhxMxMXQynS/view?usp=sharing
       title: CAFE Metadata Fields 
     - file: dv_README_template
     - file: dv_metadata_extracted
